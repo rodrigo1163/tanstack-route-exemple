@@ -1,3 +1,4 @@
+import { useAuth } from "@/context/auth-provider";
 import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/_private/dashboard")({
@@ -5,5 +6,6 @@ export const Route = createFileRoute("/_private/dashboard")({
 });
 
 function RouteComponent() {
-  return <div>Hello "/dashboard"! kkk</div>;
+  const { auth: { isAuthenticated}} = Route.useRouteContext()
+  return <div>Hello "/dashboard"! {isAuthenticated ? "Authenticated kk" : "Not authenticated"}</div>;
 }

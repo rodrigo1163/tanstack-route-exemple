@@ -7,10 +7,11 @@ export const Route = createFileRoute("/_public/sign-in")({
 
 function RouteComponent() {
   const router = useRouter();
+  const { auth: { isAuthenticated}} = Route.useRouteContext()
   return (
     <>
       <h2>Login</h2>
-      {isAuthenticated() ? (
+      {isAuthenticated ? (
         <>
           <p>Hello user!</p>
           <button
