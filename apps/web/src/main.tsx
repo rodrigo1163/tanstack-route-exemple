@@ -8,7 +8,7 @@ import { routeTree } from "./routeTree.gen";
 import "./global.css";
 import reportWebVitals from "./reportWebVitals.ts";
 import { NotFound } from "./components/404.tsx";
-import { AuthProvider, useAuth } from "./context/auth-provider.tsx";
+import { useAuth } from "./context/auth-provider.tsx";
 import { Provider } from "./providers/provider.tsx";
 
 // Create a new router instance
@@ -33,6 +33,19 @@ declare module "@tanstack/react-router" {
 
 function InnerApp() {
 	const auth = useAuth();
+
+	if (auth.isLoading) {
+		return (
+			<div className="flex h-screen w-full items-center justify-center p-4">
+				<div className="size-10 rounded-full border-4 border-gray-200 border-t-foreground animate-spin" />
+			</div>
+		);
+	}
+
+	if (auth.error) {
+		return <div>Error: {auth.error.message}</div>;
+	}
+
 	return <RouterProvider router={router} context={{ auth }} />;
 }
 

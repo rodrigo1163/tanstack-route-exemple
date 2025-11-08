@@ -463,3 +463,2445 @@
 
 
 [1;1H[0J[2m3:39:44 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m [33m(x15)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:41:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m [33m(x16)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:42:58 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/dashboard.tsx, /src/global.css, /src/pages/_private/dashboard.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:42:58 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/dashboard.tsx, /src/global.css, /src/pages/_private/dashboard.tsx?tsr-split=component[22m [33m(x2)[39m
+[2m3:42:58 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "lib/auth-client" from "src/hooks/auth/use-get-session.ts". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/sena/studies/tanstack-route-exemple/apps/web/src/hooks/auth/use-get-session.ts[39m:1:27
+[33m  1  |  import { authClient } from "lib/auth-client";
+     |                              ^
+  2  |  export async function useGetSession() {
+  3  |    const session = await authClient.getSession();[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:42:58 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "lib/auth-client" from "src/hooks/auth/use-get-session.ts". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/sena/studies/tanstack-route-exemple/apps/web/src/hooks/auth/use-get-session.ts[39m:1:27
+[33m  1  |  import { authClient } from "lib/auth-client";
+     |                              ^
+  2  |  export async function useGetSession() {
+  3  |    const session = await authClient.getSession();[39m
+      at TransformPluginContext._formatLog (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 0)
+      at async TransformPluginContext.transform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+      at async viteTransformMiddleware (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:25149:20)
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:42:59 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "lib/auth-client" from "src/hooks/auth/use-get-session.ts". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/sena/studies/tanstack-route-exemple/apps/web/src/hooks/auth/use-get-session.ts[39m:1:27
+[33m  1  |  import { authClient } from "lib/auth-client";
+     |                              ^
+  2  |  export async function useGetSession() {
+  3  |    const session = await authClient.getSession();[39m
+      at TransformPluginContext._formatLog (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 0)
+      at async TransformPluginContext.transform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+      at async viteTransformMiddleware (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:25149:20) [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:43:09 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/dashboard.tsx, /src/global.css, /src/pages/_private/dashboard.tsx?tsr-split=component[22m
+[2m3:43:09 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "lib/auth-client" from "src/hooks/auth/use-get-session.ts". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/sena/studies/tanstack-route-exemple/apps/web/src/hooks/auth/use-get-session.ts[39m:1:27
+[33m  1  |  import { authClient } from "lib/auth-client";
+     |                              ^
+  2  |  export async function useGetSession() {
+  3  |    const session = await authClient.getSession();[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:43:09 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/dashboard.tsx, /src/global.css, /src/pages/_private/dashboard.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:43:09 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "lib/auth-client" from "src/hooks/auth/use-get-session.ts". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/sena/studies/tanstack-route-exemple/apps/web/src/hooks/auth/use-get-session.ts[39m:1:27
+[33m  1  |  import { authClient } from "lib/auth-client";
+     |                              ^
+  2  |  export async function useGetSession() {
+  3  |    const session = await authClient.getSession();[39m
+      at TransformPluginContext._formatLog (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 0)
+      at async TransformPluginContext.transform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+      at async viteTransformMiddleware (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:25149:20)
+[2m3:43:10 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "lib/auth-client" from "src/hooks/auth/use-get-session.ts". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/sena/studies/tanstack-route-exemple/apps/web/src/hooks/auth/use-get-session.ts[39m:1:27
+[33m  1  |  import { authClient } from "lib/auth-client";
+     |                              ^
+  2  |  export async function useGetSession() {
+  3  |    const session = await authClient.getSession();[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:43:10 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "lib/auth-client" from "src/hooks/auth/use-get-session.ts". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/sena/studies/tanstack-route-exemple/apps/web/src/hooks/auth/use-get-session.ts[39m:1:27
+[33m  1  |  import { authClient } from "lib/auth-client";
+     |                              ^
+  2  |  export async function useGetSession() {
+  3  |    const session = await authClient.getSession();[39m
+      at TransformPluginContext._formatLog (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 0)
+      at async TransformPluginContext.transform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+      at async viteTransformMiddleware (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:25149:20)
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:43:10 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "lib/auth-client" from "src/hooks/auth/use-get-session.ts". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/sena/studies/tanstack-route-exemple/apps/web/src/hooks/auth/use-get-session.ts[39m:1:27
+[33m  1  |  import { authClient } from "lib/auth-client";
+     |                              ^
+  2  |  export async function useGetSession() {
+  3  |    const session = await authClient.getSession();[39m
+      at TransformPluginContext._formatLog (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 0)
+      at async TransformPluginContext.transform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+      at async viteTransformMiddleware (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:25149:20) [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:43:11 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/dashboard.tsx, /src/global.css, /src/pages/_private/dashboard.tsx?tsr-split=component[22m
+[2m3:43:11 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "lib/auth-client" from "src/hooks/auth/use-get-session.ts". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/sena/studies/tanstack-route-exemple/apps/web/src/hooks/auth/use-get-session.ts[39m:1:27
+[33m  1  |  import { authClient } from "lib/auth-client";
+     |                              ^
+  2  |  export async function useGetSession() {
+  3  |    const session = await authClient.getSession();[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:43:11 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "lib/auth-client" from "src/hooks/auth/use-get-session.ts". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/sena/studies/tanstack-route-exemple/apps/web/src/hooks/auth/use-get-session.ts[39m:1:27
+[33m  1  |  import { authClient } from "lib/auth-client";
+     |                              ^
+  2  |  export async function useGetSession() {
+  3  |    const session = await authClient.getSession();[39m
+      at TransformPluginContext._formatLog (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 0)
+      at async TransformPluginContext.transform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+      at async viteTransformMiddleware (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:25149:20)
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:43:11 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/dashboard.tsx, /src/global.css, /src/pages/_private/dashboard.tsx?tsr-split=component[22m
+[2m3:43:11 PM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "lib/auth-client" from "src/hooks/auth/use-get-session.ts". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/sena/studies/tanstack-route-exemple/apps/web/src/hooks/auth/use-get-session.ts[39m:1:27
+[33m  1  |  import { authClient } from "lib/auth-client";
+     |                              ^
+  2  |  export async function useGetSession() {
+  3  |    const session = await authClient.getSession();[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:43:11 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "lib/auth-client" from "src/hooks/auth/use-get-session.ts". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/sena/studies/tanstack-route-exemple/apps/web/src/hooks/auth/use-get-session.ts[39m:1:27
+[33m  1  |  import { authClient } from "lib/auth-client";
+     |                              ^
+  2  |  export async function useGetSession() {
+  3  |    const session = await authClient.getSession();[39m
+      at TransformPluginContext._formatLog (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 0)
+      at async TransformPluginContext.transform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+      at async viteTransformMiddleware (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:25149:20)
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:43:12 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "lib/auth-client" from "src/hooks/auth/use-get-session.ts". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/sena/studies/tanstack-route-exemple/apps/web/src/hooks/auth/use-get-session.ts[39m:1:27
+[33m  1  |  import { authClient } from "lib/auth-client";
+     |                              ^
+  2  |  export async function useGetSession() {
+  3  |    const session = await authClient.getSession();[39m
+      at TransformPluginContext._formatLog (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 0)
+      at async TransformPluginContext.transform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+      at async viteTransformMiddleware (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:25149:20) [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:43:15 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "lib/auth-client" from "src/hooks/auth/use-get-session.ts". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/sena/studies/tanstack-route-exemple/apps/web/src/hooks/auth/use-get-session.ts[39m:1:27
+[33m  1  |  import { authClient } from "lib/auth-client";
+     |                              ^
+  2  |  export async function useGetSession() {
+  3  |    const session = await authClient.getSession();[39m
+      at TransformPluginContext._formatLog (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 0)
+      at async TransformPluginContext.transform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+      at async viteTransformMiddleware (file:///home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:25149:20) [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:43:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/_private/dashboard.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:43:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/_private/dashboard.tsx?tsr-split=component[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:43:34 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/dashboard.tsx, /src/global.css, /src/pages/_private/dashboard.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:43:34 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/dashboard.tsx, /src/global.css, /src/pages/_private/dashboard.tsx?tsr-split=component[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:43:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/dashboard.tsx, /src/global.css, /src/pages/_private/dashboard.tsx?tsr-split=component[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:43:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/dashboard.tsx, /src/global.css, /src/pages/_private/dashboard.tsx?tsr-split=component[22m [33m(x4)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:44:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/dashboard.tsx, /src/global.css, /src/pages/_private/dashboard.tsx?tsr-split=component[22m [33m(x5)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:44:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/dashboard.tsx, /src/global.css, /src/pages/_private/dashboard.tsx?tsr-split=component[22m [33m(x6)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:44:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/dashboard.tsx, /src/global.css, /src/pages/_private/dashboard.tsx?tsr-split=component[22m [33m(x7)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:44:36 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/dashboard.tsx, /src/global.css, /src/pages/_private/dashboard.tsx?tsr-split=component[22m [33m(x8)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:44:47 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:44:47 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:44:47 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:44:47 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:44:47 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:44:48 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:44:58 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m [33m(x2)[39m
+[2m3:44:58 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:44:58 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:44:58 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:44:58 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:46:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:46:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:46:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:46:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:46:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:46:55 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/hooks/auth/use-get-session.ts[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:46:55 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/hooks/auth/use-get-session.ts[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:47:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:47:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:47:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:47:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:47:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:48:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:48:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:48:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:48:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:48:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:49:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:49:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:49:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:49:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:49:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:49:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/hooks/auth/use-get-session.ts[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:49:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/hooks/auth/use-get-session.ts[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:50:14 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:50:14 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:50:14 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:50:14 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:50:14 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:50:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:50:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:50:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:50:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:50:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:50:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:50:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:50:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:50:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:50:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:50:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:50:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:50:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:50:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:50:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:50:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:50:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:50:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:50:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:50:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:50:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:50:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:50:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:50:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:50:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:50:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:50:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:50:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:50:47 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:50:47 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:50:47 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:50:47 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:50:47 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:50:47 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:50:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m [33m(x2)[39m
+[2m3:50:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:50:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:50:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:50:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:50:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:50:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:50:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:50:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:50:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:51:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/context/auth-provider.tsx[22m
+[2m3:51:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:51:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:51:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:51:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:51:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/context/auth-provider.tsx[22m
+[2m3:51:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:51:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:51:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:51:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:51:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:51:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:51:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:51:17 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:51:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/context/auth-provider.tsx[22m
+[2m3:51:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:51:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:51:28 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:51:28 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:51:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:51:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:51:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:51:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:51:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:51:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:51:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:51:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:51:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:51:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:52:09 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/context/auth-provider.tsx[22m
+[2m3:52:09 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:52:09 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:52:09 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:52:09 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:52:09 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/context/auth-provider.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:52:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/context/auth-provider.tsx[22m [33m(x2)[39m
+[2m3:52:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:52:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:52:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:52:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:52:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/context/auth-provider.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:53:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:53:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:53:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:53:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:53:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:53:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:53:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:53:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:53:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:53:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:55:13 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:55:13 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m [33m(x2)[39m
+[2m3:55:13 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:55:13 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:55:13 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:55:13 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:55:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:55:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:55:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:55:19 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:55:19 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:55:19 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:55:37 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:55:37 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: /home/sena/studies/tanstack-route-exemple/apps/web/src/context/auth-provider.tsx: Unexpected token (31:2)
+
+[0m [90m 29 |[31m 	isAuthenticated[33m:[31m boolean[33m;[31m
+ [90m 30 |[31m 	session[33m:[31m [33mData[31m[33m;[31m
+[31m[1m>[22m[31m[90m 31 |[31m } [33m|[31m [36mnull[31m[33m;[31m
+ [90m    |[31m   [31m[1m^[22m[31m
+ [90m 32 |[31m [36minterface[31m [33mAuthProvider[31m {
+ [90m 33 |[31m 	children[33m:[31m [33mReactNode[31m[33m;[31m
+ [90m 34 |[31m }[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/sena/studies/tanstack-route-exemple/apps/web/src/context/auth-provider.tsx[39m:31:2
+[33m  29 |  	isAuthenticated: boolean;
+  30 |  	session: Data;
+  31 |  } | null;
+     |    ^
+  32 |  interface AuthProvider {
+  33 |  	children: ReactNode;[39m
+      at constructor (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptParserMixin.unexpected (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:6644:16)
+      at TypeScriptParserMixin.parseExprAtom (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11508:22)
+      at TypeScriptParserMixin.parseExprAtom (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9839:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10844:39
+      at TypeScriptParserMixin.allowInAnd (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12495:16)
+      at TypeScriptParserMixin.parseExpression (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10844:17)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12971:23)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12820:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13392:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseProgram (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12698:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12688:25)
+      at TypeScriptParserMixin.parse (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:14568:25)
+      at TypeScriptParserMixin.parse (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10183:18)
+      at parse (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:14602:38)
+      at parser (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+core@7.28.5/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+core@7.28.5/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+core@7.28.5/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+core@7.28.5/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:261:32)
+      at /home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:223:11)
+      at /home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:189:28
+      at /home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+core@7.28.5/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:113:33
+      at step (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:287:14)
+      at /home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:223:11)
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:55:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:55:38 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: /home/sena/studies/tanstack-route-exemple/apps/web/src/context/auth-provider.tsx: Unexpected token (31:2)
+
+[0m [90m 29 |[31m 	isAuthenticated[33m:[31m boolean[33m;[31m
+ [90m 30 |[31m 	session[33m:[31m [33mData[31m[33m;[31m
+[31m[1m>[22m[31m[90m 31 |[31m } [33m|[31m [36mnull[31m[33m;[31m
+ [90m    |[31m   [31m[1m^[22m[31m
+ [90m 32 |[31m [36minterface[31m [33mAuthProvider[31m {
+ [90m 33 |[31m 	children[33m:[31m [33mReactNode[31m[33m;[31m
+ [90m 34 |[31m }[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/sena/studies/tanstack-route-exemple/apps/web/src/context/auth-provider.tsx[39m:31:2
+[33m  29 |  	isAuthenticated: boolean;
+  30 |  	session: Data;
+  31 |  } | null;
+     |    ^
+  32 |  interface AuthProvider {
+  33 |  	children: ReactNode;[39m
+      at constructor (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptParserMixin.unexpected (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:6644:16)
+      at TypeScriptParserMixin.parseExprAtom (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11508:22)
+      at TypeScriptParserMixin.parseExprAtom (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9839:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10844:39
+      at TypeScriptParserMixin.allowInAnd (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12495:16)
+      at TypeScriptParserMixin.parseExpression (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10844:17)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12971:23)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12820:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13392:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseProgram (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12698:10)
+      at TypeScriptParserMixin.parseTopLevel (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12688:25)
+      at TypeScriptParserMixin.parse (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:14568:25)
+      at TypeScriptParserMixin.parse (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10183:18)
+      at parse (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:14602:38)
+      at parser (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+core@7.28.5/node_modules/@babel/core/lib/parser/index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+core@7.28.5/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+      at normalizeFile.next (<anonymous>)
+      at run (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+core@7.28.5/node_modules/@babel/core/lib/transformation/index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+core@7.28.5/node_modules/@babel/core/lib/transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:261:32)
+      at /home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:223:11)
+      at /home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:189:28
+      at /home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+core@7.28.5/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+      at /home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:113:33
+      at step (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:287:14)
+      at /home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:273:13
+      at async.call.result.err.err (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/gensync@1.0.0-beta.2/node_modules/gensync/index.js:223:11)
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:55:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:55:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:55:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:55:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:55:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:55:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:56:01 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/dashboard.tsx, /src/global.css, /src/pages/_private/dashboard.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:56:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/dashboard.tsx, /src/global.css, /src/pages/_private/dashboard.tsx?tsr-split=component[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:57:52 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/dashboard.tsx, /src/global.css, /src/pages/_private/dashboard.tsx?tsr-split=component[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:59:46 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:59:46 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m [33m(x2)[39m
+[2m3:59:46 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:59:46 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:59:46 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:59:46 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:59:52 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m3:59:52 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:59:52 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m3:59:52 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m3:59:52 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m3:59:53 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:00:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m [33m(x2)[39m
+[2m4:00:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:00:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m4:00:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:00:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:00:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m4:00:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:00:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m4:00:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:00:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:00:26 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m4:00:26 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:00:26 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m4:00:26 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:00:26 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:00:26 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:00:28 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m [33m(x2)[39m
+[2m4:00:28 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:00:28 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m4:00:28 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:00:28 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:00:29 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:01:01 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/layout.tsx, /src/global.css, /src/pages/_private/layout.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:01:53 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/layout.tsx, /src/global.css, /src/pages/_private/layout.tsx?tsr-split=component[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:01:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/layout.tsx, /src/global.css, /src/pages/_private/layout.tsx?tsr-split=component[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:02:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m4:02:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:02:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m4:02:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:02:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:02:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/layout.tsx, /src/global.css, /src/pages/_private/layout.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:02:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_private/layout.tsx, /src/global.css, /src/pages/_private/layout.tsx?tsr-split=component[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:02:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m4:02:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:02:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m4:02:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:02:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:02:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:02:29 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m [33m(x2)[39m
+[2m4:02:29 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:02:29 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m4:02:29 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:02:29 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:02:29 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:03:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_public/layout.tsx, /src/global.css, /src/pages/_public/layout.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:03:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_public/layout.tsx, /src/global.css, /src/pages/_public/layout.tsx?tsr-split=component[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:03:03 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_public/layout.tsx, /src/global.css, /src/pages/_public/layout.tsx?tsr-split=component[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:03:03 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_public/layout.tsx, /src/global.css, /src/pages/_public/layout.tsx?tsr-split=component[22m [33m(x4)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:03:11 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_public/layout.tsx, /src/global.css, /src/pages/_public/layout.tsx?tsr-split=component[22m [33m(x5)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:03:11 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/_public/layout.tsx, /src/global.css, /src/pages/_public/layout.tsx?tsr-split=component[22m [33m(x6)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:03:36 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:03:36 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: /home/sena/studies/tanstack-route-exemple/apps/web/src/context/auth-provider.tsx: Unexpected reserved word 'await'. (41:1)
+
+[0m [90m 39 |[31m [36mexport[31m [36mfunction[31m [33mAuthProvider[31m({ children }[33m:[31m [33mAuthProvider[31m) {
+ [90m 40 |[31m 	[36mconst[31m { data[33m,[31m isPending[33m,[31m error } [33m=[31m useGetSession()[33m;[31m
+[31m[1m>[22m[31m[90m 41 |[31m 	[36mawait[31m [36mnew[31m [33mPromise[31m((resolve) [33m=>[31m setTimeout(resolve[33m,[31m [35m1000[31m))[33m;[31m
+ [90m    |[31m 	[31m[1m^[22m[31m
+ [90m 42 |[31m
+ [90m 43 |[31m 	[36mif[31m (isPending) {
+ [90m 44 |[31m 		[36mreturn[31m [33m<[31m[33mdiv[31m[33m>[31m[33mLoading[31m[33m...[31m[33m<[31m[33m/[31m[33mdiv[31m[33m>[31m[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/sena/studies/tanstack-route-exemple/apps/web/src/context/auth-provider.tsx[39m:41:1
+[33m  39 |  export function AuthProvider({ children }: AuthProvider) {
+  40 |  	const { data, isPending, error } = useGetSession();
+  41 |  	await new Promise((resolve) => setTimeout(resolve, 1000));
+     |   ^
+  42 |  
+  43 |  	if (isPending) {[39m
+      at constructor (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptParserMixin.checkReservedWord (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12305:12)
+      at TypeScriptParserMixin.checkReservedWord (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9369:13)
+      at TypeScriptParserMixin.parseIdentifierName (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12285:12)
+      at TypeScriptParserMixin.parseIdentifier (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12255:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11482:27)
+      at TypeScriptParserMixin.parseExprAtom (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9839:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10844:39
+      at TypeScriptParserMixin.allowInAnd (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12495:16)
+      at TypeScriptParserMixin.parseExpression (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10844:17)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12971:23)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12823:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13392:61)
+      at TypeScriptParserMixin.parseBlockBody (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseBlock (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13373:10)
+      at TypeScriptParserMixin.parseFunctionBody (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12174:24)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12160:10)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9223:18)
+      at /home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13521:12
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12477:14)
+      at TypeScriptParserMixin.parseFunction (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13520:10)
+      at TypeScriptParserMixin.parseFunctionStatement (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13201:17)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12867:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12823:17)
+      at TypeScriptParserMixin.parseExportDeclaration (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:14010:17)
+      at TypeScriptParserMixin.parseExportDeclaration (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9690:85)
+      at TypeScriptParserMixin.maybeParseExportDeclaration (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13969:31)
+      at TypeScriptParserMixin.parseExport (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13888:29)
+      at TypeScriptParserMixin.parseExport (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9446:20)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12954:27)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12820:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13392:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13385:10)
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:03:39 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:03:39 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: /home/sena/studies/tanstack-route-exemple/apps/web/src/context/auth-provider.tsx: Unexpected reserved word 'await'. (41:1)
+
+[0m [90m 39 |[31m [36mexport[31m [36mfunction[31m [33mAuthProvider[31m({ children }[33m:[31m [33mAuthProvider[31m) {
+ [90m 40 |[31m 	[36mconst[31m { data[33m,[31m isPending[33m,[31m error } [33m=[31m useGetSession()[33m;[31m
+[31m[1m>[22m[31m[90m 41 |[31m 	[36mawait[31m [36mnew[31m [33mPromise[31m((resolve) [33m=>[31m setTimeout(resolve[33m,[31m [35m4000[31m))[33m;[31m
+ [90m    |[31m 	[31m[1m^[22m[31m
+ [90m 42 |[31m
+ [90m 43 |[31m 	[36mif[31m (isPending) {
+ [90m 44 |[31m 		[36mreturn[31m [33m<[31m[33mdiv[31m[33m>[31m[33mLoading[31m[33m...[31m[33m<[31m[33m/[31m[33mdiv[31m[33m>[31m[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/sena/studies/tanstack-route-exemple/apps/web/src/context/auth-provider.tsx[39m:41:1
+[33m  39 |  export function AuthProvider({ children }: AuthProvider) {
+  40 |  	const { data, isPending, error } = useGetSession();
+  41 |  	await new Promise((resolve) => setTimeout(resolve, 4000));
+     |   ^
+  42 |  
+  43 |  	if (isPending) {[39m
+      at constructor (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptParserMixin.checkReservedWord (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12305:12)
+      at TypeScriptParserMixin.checkReservedWord (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9369:13)
+      at TypeScriptParserMixin.parseIdentifierName (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12285:12)
+      at TypeScriptParserMixin.parseIdentifier (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12255:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11482:27)
+      at TypeScriptParserMixin.parseExprAtom (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9839:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10844:39
+      at TypeScriptParserMixin.allowInAnd (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12495:16)
+      at TypeScriptParserMixin.parseExpression (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10844:17)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12971:23)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12823:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13392:61)
+      at TypeScriptParserMixin.parseBlockBody (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseBlock (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13373:10)
+      at TypeScriptParserMixin.parseFunctionBody (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12174:24)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12160:10)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9223:18)
+      at /home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13521:12
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12477:14)
+      at TypeScriptParserMixin.parseFunction (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13520:10)
+      at TypeScriptParserMixin.parseFunctionStatement (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13201:17)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12867:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12823:17)
+      at TypeScriptParserMixin.parseExportDeclaration (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:14010:17)
+      at TypeScriptParserMixin.parseExportDeclaration (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9690:85)
+      at TypeScriptParserMixin.maybeParseExportDeclaration (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13969:31)
+      at TypeScriptParserMixin.parseExport (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13888:29)
+      at TypeScriptParserMixin.parseExport (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9446:20)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12954:27)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12820:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13392:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13385:10)
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:03:39 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:03:39 PM[22m [31m[1m[vite][22m[39m [31mInternal server error: /home/sena/studies/tanstack-route-exemple/apps/web/src/context/auth-provider.tsx: Unexpected reserved word 'await'. (41:1)
+
+[0m [90m 39 |[31m [36mexport[31m [36mfunction[31m [33mAuthProvider[31m({ children }[33m:[31m [33mAuthProvider[31m) {
+ [90m 40 |[31m 	[36mconst[31m { data[33m,[31m isPending[33m,[31m error } [33m=[31m useGetSession()[33m;[31m
+[31m[1m>[22m[31m[90m 41 |[31m 	[36mawait[31m [36mnew[31m [33mPromise[31m((resolve) [33m=>[31m setTimeout(resolve[33m,[31m [35m4000[31m))[33m;[31m
+ [90m    |[31m 	[31m[1m^[22m[31m
+ [90m 42 |[31m
+ [90m 43 |[31m 	[36mif[31m (isPending) {
+ [90m 44 |[31m 		[36mreturn[31m [33m<[31m[33mdiv[31m[33m>[31m[33mLoading[31m[33m...[31m[33m<[31m[33m/[31m[33mdiv[31m[33m>[31m[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/sena/studies/tanstack-route-exemple/apps/web/src/context/auth-provider.tsx[39m:41:1
+[33m  39 |  export function AuthProvider({ children }: AuthProvider) {
+  40 |  	const { data, isPending, error } = useGetSession();
+  41 |  	await new Promise((resolve) => setTimeout(resolve, 4000));
+     |   ^
+  42 |  
+  43 |  	if (isPending) {[39m
+      at constructor (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptParserMixin.checkReservedWord (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12305:12)
+      at TypeScriptParserMixin.checkReservedWord (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9369:13)
+      at TypeScriptParserMixin.parseIdentifierName (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12285:12)
+      at TypeScriptParserMixin.parseIdentifier (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12255:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11482:27)
+      at TypeScriptParserMixin.parseExprAtom (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9839:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10844:39
+      at TypeScriptParserMixin.allowInAnd (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12495:16)
+      at TypeScriptParserMixin.parseExpression (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10844:17)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12971:23)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12823:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13392:61)
+      at TypeScriptParserMixin.parseBlockBody (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseBlock (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13373:10)
+      at TypeScriptParserMixin.parseFunctionBody (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12174:24)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12160:10)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9223:18)
+      at /home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13521:12
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12477:14)
+      at TypeScriptParserMixin.parseFunction (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13520:10)
+      at TypeScriptParserMixin.parseFunctionStatement (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13201:17)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12867:21)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12823:17)
+      at TypeScriptParserMixin.parseExportDeclaration (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:14010:17)
+      at TypeScriptParserMixin.parseExportDeclaration (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9690:85)
+      at TypeScriptParserMixin.maybeParseExportDeclaration (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13969:31)
+      at TypeScriptParserMixin.parseExport (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13888:29)
+      at TypeScriptParserMixin.parseExport (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9446:20)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12954:27)
+      at TypeScriptParserMixin.parseStatementContent (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseModuleItem (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12820:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13392:36)
+      at TypeScriptParserMixin.parseBlockBody (/home/sena/studies/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13385:10)
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:03:45 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m4:03:45 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:03:45 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m4:03:45 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:03:45 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:03:45 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:04:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m [33m(x2)[39m
+[2m4:04:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:04:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m4:04:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:04:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:04:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:04:12 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m [33m(x2)[39m
+[2m4:04:12 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:04:12 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m4:04:12 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:04:12 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:04:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m4:04:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:04:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m4:04:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:04:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:05:05 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m4:05:05 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:05:05 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m4:05:05 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:05:05 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:09:37 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:09:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m [33m(x2)[39m
+[2m4:09:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:09:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m4:09:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:09:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:09:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m4:09:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:09:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m4:09:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:09:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:10:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/global.css[22m
+[2m4:10:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:10:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:10:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/global.css[22m
+[2m4:10:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:10:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:10:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:10:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m [33m(x2)[39m
+[2m4:10:19 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:10:19 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m4:10:19 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:10:19 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:10:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m4:10:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:10:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m4:10:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:10:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:10:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m4:10:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:10:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m4:10:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:10:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:10:26 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:11:12 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m [33m(x2)[39m
+[2m4:11:12 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:11:12 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m4:11:12 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:11:12 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:11:44 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:11:44 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m [33m(x2)[39m
+[2m4:11:44 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:11:44 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m4:11:45 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:11:45 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:11:59 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/context/auth-provider.tsx, /src/global.css[22m
+[2m4:11:59 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/context/auth-provider.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:11:59 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/providers/provider.tsx[22m
+[2m4:11:59 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:11:59 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:12:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:12:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/global.css[22m [33m(x2)[39m
+[2m4:12:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:12:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:12:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/global.css[22m
+[2m4:12:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:12:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:12:37 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/global.css[22m
+[2m4:12:37 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:12:37 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:12:37 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m4:12:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx, /src/global.css[22m [33m(x2)[39m
+[2m4:12:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m4:12:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
