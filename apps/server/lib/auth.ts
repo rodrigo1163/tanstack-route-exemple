@@ -1,7 +1,8 @@
 import { betterAuth } from "better-auth";
 import { prismaAdapter } from "better-auth/adapters/prisma";
-import { prisma } from "./prisma.js";
+import { prisma } from "./prisma";
 import { openAPI } from "better-auth/plugins";
+import { env } from "../env";
 
 export const auth = betterAuth({
 	database: prismaAdapter(prisma, {
@@ -9,6 +10,8 @@ export const auth = betterAuth({
 	}),
 	emailAndPassword: {
 		enabled: true,
+		autoSignIn: false,
 	},
 	plugins: [openAPI()],
+	trustedOrigins: [env.CLIENT_ORIGIN],
 });

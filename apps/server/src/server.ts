@@ -41,10 +41,10 @@ app.route({
 			const response = await auth.handler(req);
 			// Forward response to client
 			reply.status(response.status);
+			// biome-ignore lint/suspicious/useIterableCallbackReturn: because it's a callback
 			response.headers.forEach((value, key) => reply.header(key, value));
 			reply.send(response.body ? await response.text() : null);
-		} catch (error) {
-			app.log.error("Authentication Error:", error);
+		} catch {
 			reply.status(500).send({
 				error: "Internal authentication error",
 				code: "AUTH_FAILURE",
