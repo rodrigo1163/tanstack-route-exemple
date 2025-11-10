@@ -10,6 +10,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { createTaskApi } from "@/api/create-task-api";
 
 export const Route = createFileRoute("/_private/to-do")({
   component: RouteComponent,
@@ -28,7 +29,7 @@ function RouteComponent() {
   const [inputValue, setInputValue] = useState("");
   const [filter, setFilter] = useState<Filter>("all");
 
-  const addTodo = () => {
+  const addTodo = async () => {
     if (inputValue.trim() === "") return;
 
     const newTodo: Todo = {
@@ -36,7 +37,7 @@ function RouteComponent() {
       text: inputValue.trim(),
       completed: false,
     };
-
+    await createTaskApi(inputValue.trim());
     setTodos([...todos, newTodo]);
     setInputValue("");
   };

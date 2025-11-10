@@ -1,14 +1,18 @@
 import fastify from "fastify";
 import type { ZodTypeProvider } from "fastify-type-provider-zod";
+import {
+  serializerCompiler,
+  validatorCompiler,
+} from "fastify-type-provider-zod";
 import { env } from "../env";
 import { auth } from "../lib/auth";
 import fastifyCors from "@fastify/cors";
+import { createTask } from "./router/todo/create-task";
 
 const app = fastify().withTypeProvider<ZodTypeProvider>();
 
-app.get("/health", () => {
-  return "";
-});
+app.setValidatorCompiler(validatorCompiler);
+app.setSerializerCompiler(serializerCompiler);
 
 app.register(fastifyCors, {
   origin: env.CLIENT_ORIGIN,
@@ -17,6 +21,12 @@ app.register(fastifyCors, {
   credentials: true,
   maxAge: 86400,
 });
+
+app.get("/health", () => {
+  return "ok";
+});
+
+app.register(createTask);
 
 app.route({
   method: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
@@ -53,6 +63,6 @@ app.route({
   },
 });
 
-app.listen({ port: env.PORT }).then(() => {
+app.listen({ port: env.PORT, host: "0.0.0.0" }).then(() => {
   console.log(`Server is running on port ${env.PORT}`);
 });
