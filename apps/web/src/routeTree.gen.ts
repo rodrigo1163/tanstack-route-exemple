@@ -8,8 +8,6 @@
 // You should NOT make any changes in this file as it will be overwritten.
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
-import { createFileRoute } from '@tanstack/react-router'
-
 import { Route as rootRouteImport } from './pages/__root'
 import { Route as ForgotRouteImport } from './pages/forgot'
 import { Route as publicLayoutRouteImport } from './pages/(public)/layout'
@@ -21,8 +19,6 @@ import { Route as privateToDoRouteImport } from './pages/(private)/to-do'
 import { Route as privateSearchRouteImport } from './pages/(private)/search'
 import { Route as privateDashboardRouteImport } from './pages/(private)/dashboard'
 import { Route as privateOrgSlugAnimalsRouteImport } from './pages/(private)/org/$slug/animals'
-
-const privateSettingsLazyRouteImport = createFileRoute('/(private)/settings')()
 
 const ForgotRoute = ForgotRouteImport.update({
   id: '/forgot',
@@ -42,13 +38,6 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const privateSettingsLazyRoute = privateSettingsLazyRouteImport
-  .update({
-    id: '/settings',
-    path: '/settings',
-    getParentRoute: () => privateLayoutRoute,
-  } as any)
-  .lazy(() => import('./pages/(private)/settings.lazy').then((d) => d.Route))
 const publicSignUpRoute = publicSignUpRouteImport.update({
   id: '/sign-up',
   path: '/sign-up',
@@ -88,7 +77,6 @@ export interface FileRoutesByFullPath {
   '/to-do': typeof privateToDoRoute
   '/sign-in': typeof publicSignInRoute
   '/sign-up': typeof publicSignUpRoute
-  '/settings': typeof privateSettingsLazyRoute
   '/org/$slug/animals': typeof privateOrgSlugAnimalsRoute
 }
 export interface FileRoutesByTo {
@@ -99,7 +87,6 @@ export interface FileRoutesByTo {
   '/to-do': typeof privateToDoRoute
   '/sign-in': typeof publicSignInRoute
   '/sign-up': typeof publicSignUpRoute
-  '/settings': typeof privateSettingsLazyRoute
   '/org/$slug/animals': typeof privateOrgSlugAnimalsRoute
 }
 export interface FileRoutesById {
@@ -113,7 +100,6 @@ export interface FileRoutesById {
   '/(private)/to-do': typeof privateToDoRoute
   '/(public)/sign-in': typeof publicSignInRoute
   '/(public)/sign-up': typeof publicSignUpRoute
-  '/(private)/settings': typeof privateSettingsLazyRoute
   '/(private)/org/$slug/animals': typeof privateOrgSlugAnimalsRoute
 }
 export interface FileRouteTypes {
@@ -126,7 +112,6 @@ export interface FileRouteTypes {
     | '/to-do'
     | '/sign-in'
     | '/sign-up'
-    | '/settings'
     | '/org/$slug/animals'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -137,7 +122,6 @@ export interface FileRouteTypes {
     | '/to-do'
     | '/sign-in'
     | '/sign-up'
-    | '/settings'
     | '/org/$slug/animals'
   id:
     | '__root__'
@@ -150,7 +134,6 @@ export interface FileRouteTypes {
     | '/(private)/to-do'
     | '/(public)/sign-in'
     | '/(public)/sign-up'
-    | '/(private)/settings'
     | '/(private)/org/$slug/animals'
   fileRoutesById: FileRoutesById
 }
@@ -190,13 +173,6 @@ declare module '@tanstack/react-router' {
       fullPath: '/'
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
-    }
-    '/(private)/settings': {
-      id: '/(private)/settings'
-      path: '/settings'
-      fullPath: '/settings'
-      preLoaderRoute: typeof privateSettingsLazyRouteImport
-      parentRoute: typeof privateLayoutRoute
     }
     '/(public)/sign-up': {
       id: '/(public)/sign-up'
@@ -247,7 +223,6 @@ interface privateLayoutRouteChildren {
   privateDashboardRoute: typeof privateDashboardRoute
   privateSearchRoute: typeof privateSearchRoute
   privateToDoRoute: typeof privateToDoRoute
-  privateSettingsLazyRoute: typeof privateSettingsLazyRoute
   privateOrgSlugAnimalsRoute: typeof privateOrgSlugAnimalsRoute
 }
 
@@ -255,7 +230,6 @@ const privateLayoutRouteChildren: privateLayoutRouteChildren = {
   privateDashboardRoute: privateDashboardRoute,
   privateSearchRoute: privateSearchRoute,
   privateToDoRoute: privateToDoRoute,
-  privateSettingsLazyRoute: privateSettingsLazyRoute,
   privateOrgSlugAnimalsRoute: privateOrgSlugAnimalsRoute,
 }
 

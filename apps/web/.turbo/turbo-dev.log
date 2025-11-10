@@ -672,3 +672,2427 @@ Estimated release dates:
 
 
 [1;1H[0J[2m9:13:54 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx?tsr-split=component[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:15:15 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/layout.tsx, /src/pages/(private)/layout.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:15:15 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/layout.tsx, /src/pages/(private)/layout.tsx?tsr-split=component[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:16:25 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:16:25 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "@/lib/auth-client" from "src/components/navbar.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/components/navbar.tsx[39m:3:27
+[33m  3  |  import { Link, useNavigate } from "@tanstack/react-router";
+  4  |  import { useAuth } from "@/context/auth-provider";
+  5  |  import { authClient } from "@/lib/auth-client";
+     |                              ^
+  6  |  import { Button } from "@/components/ui/button";
+  7  |  import { LogOut, User } from "lucide-react";[39m
+      at TransformPluginContext._formatLog (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+      at async viteTransformMiddleware (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:25149:20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:16:46 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/layout.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:16:46 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../../lib/auth-client" from "src/components/navbar.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/components/navbar.tsx[39m:3:27
+[33m  3  |  import { Link, useNavigate } from "@tanstack/react-router";
+  4  |  import { useAuth } from "@/context/auth-provider";
+  5  |  import { authClient } from "../../../lib/auth-client";
+     |                              ^
+  6  |  import { Button } from "@/components/ui/button";
+  7  |  import { LogOut, User } from "lucide-react";[39m
+      at TransformPluginContext._formatLog (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+[2m9:16:46 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../../lib/auth-client" from "src/components/navbar.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/components/navbar.tsx[39m:3:27
+[33m  3  |  import { Link, useNavigate } from "@tanstack/react-router";
+  4  |  import { useAuth } from "@/context/auth-provider";
+  5  |  import { authClient } from "../../../lib/auth-client";
+     |                              ^
+  6  |  import { Button } from "@/components/ui/button";
+  7  |  import { LogOut, User } from "lucide-react";[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:16:47 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/layout.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:16:47 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../../lib/auth-client" from "src/components/navbar.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/components/navbar.tsx[39m:3:27
+[33m  3  |  import { Link, useNavigate } from "@tanstack/react-router";
+  4  |  import { useAuth } from "@/context/auth-provider";
+  5  |  import { authClient } from "../../../lib/auth-client";
+     |                              ^
+  6  |  import { Button } from "@/components/ui/button";
+  7  |  import { LogOut, User } from "lucide-react";[39m
+      at TransformPluginContext._formatLog (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+[2m9:16:47 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../../lib/auth-client" from "src/components/navbar.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/components/navbar.tsx[39m:3:27
+[33m  3  |  import { Link, useNavigate } from "@tanstack/react-router";
+  4  |  import { useAuth } from "@/context/auth-provider";
+  5  |  import { authClient } from "../../../lib/auth-client";
+     |                              ^
+  6  |  import { Button } from "@/components/ui/button";
+  7  |  import { LogOut, User } from "lucide-react";[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:16:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/layout.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:16:49 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../../lib/auth-client" from "src/components/navbar.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/components/navbar.tsx[39m:3:27
+[33m  3  |  import { Link, useNavigate } from "@tanstack/react-router";
+  4  |  import { useAuth } from "@/context/auth-provider";
+  5  |  import { authClient } from "../../../lib/auth-client";
+     |                              ^
+  6  |  import { Button } from "@/components/ui/button";
+  7  |  import { LogOut, User } from "lucide-react";[39m
+      at TransformPluginContext._formatLog (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+[2m9:16:49 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../../lib/auth-client" from "src/components/navbar.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/components/navbar.tsx[39m:3:27
+[33m  3  |  import { Link, useNavigate } from "@tanstack/react-router";
+  4  |  import { useAuth } from "@/context/auth-provider";
+  5  |  import { authClient } from "../../../lib/auth-client";
+     |                              ^
+  6  |  import { Button } from "@/components/ui/button";
+  7  |  import { LogOut, User } from "lucide-react";[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:17:36 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/layout.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:17:36 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../../lib/auth-client" from "src/components/navbar.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/components/navbar.tsx[39m:3:27
+[33m  3  |  import { Link, useNavigate } from "@tanstack/react-router";
+  4  |  import { useAuth } from "@/context/auth-provider";
+  5  |  import { authClient } from "../../../lib/auth-client";
+     |                              ^
+  6  |  import { Button } from "@/components/ui/button";
+  7  |  import { LogOut, User } from "lucide-react";[39m
+      at TransformPluginContext._formatLog (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+[2m9:17:36 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../../lib/auth-client" from "src/components/navbar.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/components/navbar.tsx[39m:3:27
+[33m  3  |  import { Link, useNavigate } from "@tanstack/react-router";
+  4  |  import { useAuth } from "@/context/auth-provider";
+  5  |  import { authClient } from "../../../lib/auth-client";
+     |                              ^
+  6  |  import { Button } from "@/components/ui/button";
+  7  |  import { LogOut, User } from "lucide-react";[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:17:51 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/layout.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:17:51 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../../lib/auth-client" from "src/components/navbar.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/components/navbar.tsx[39m:3:27
+[33m  3  |  import { Link, useNavigate } from "@tanstack/react-router";
+  4  |  import { useAuth } from "@/context/auth-provider";
+  5  |  import { authClient } from "../../../lib/auth-client";
+     |                              ^
+  6  |  import { Button } from "@/components/ui/button";
+  7  |  import { LogOut, User } from "lucide-react";[39m
+      at TransformPluginContext._formatLog (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+[2m9:17:51 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../../lib/auth-client" from "src/components/navbar.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/components/navbar.tsx[39m:3:27
+[33m  3  |  import { Link, useNavigate } from "@tanstack/react-router";
+  4  |  import { useAuth } from "@/context/auth-provider";
+  5  |  import { authClient } from "../../../lib/auth-client";
+     |                              ^
+  6  |  import { Button } from "@/components/ui/button";
+  7  |  import { LogOut, User } from "lucide-react";[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:17:52 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/layout.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:17:52 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "../../../lib/auth-client" from "src/components/navbar.tsx". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/components/navbar.tsx[39m:3:27
+[33m  3  |  import { Link, useNavigate } from "@tanstack/react-router";
+  4  |  import { useAuth } from "@/context/auth-provider";
+  5  |  import { authClient } from "../../../lib/auth-client";
+     |                              ^
+  6  |  import { Button } from "@/components/ui/button";
+  7  |  import { LogOut, User } from "lucide-react";[39m
+      at TransformPluginContext._formatLog (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 3)
+      at async TransformPluginContext.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+[2m9:17:52 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "../../../lib/auth-client" from "src/components/navbar.tsx". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/components/navbar.tsx[39m:3:27
+[33m  3  |  import { Link, useNavigate } from "@tanstack/react-router";
+  4  |  import { useAuth } from "@/context/auth-provider";
+  5  |  import { authClient } from "../../../lib/auth-client";
+     |                              ^
+  6  |  import { Button } from "@/components/ui/button";
+  7  |  import { LogOut, User } from "lucide-react";[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:18:07 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/layout.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:18:07 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/layout.tsx?tsr-split=component[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:18:37 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:18:38 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:22:14 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:22:14 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m [33m(x4)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:22:47 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m [33m(x5)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:22:51 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m [33m(x6)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:22:51 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m [33m(x7)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:23:22 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m [33m(x8)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:23:22 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m [33m(x9)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:23:28 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m [33m(x10)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:23:28 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m [33m(x11)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:23:31 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m [33m(x12)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:23:31 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m [33m(x13)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:26:17 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m [33m(x14)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:26:23 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m [33m(x15)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:26:24 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m [33m(x16)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:26:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m [33m(x17)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:28:23 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m [33m(x18)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:29:09 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/layout.tsx, /src/pages/(private)/layout.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:29:09 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/layout.tsx, /src/pages/(private)/layout.tsx?tsr-split=component[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:30:53 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(public)/sign-in.tsx, /src/pages/(public)/sign-in.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:30:59 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(public)/sign-in.tsx, /src/pages/(public)/sign-in.tsx?tsr-split=component[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:30:59 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(public)/sign-in.tsx, /src/pages/(public)/sign-in.tsx?tsr-split=component[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:31:03 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(public)/sign-in.tsx, /src/pages/(public)/sign-in.tsx?tsr-split=component[22m [33m(x4)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:31:03 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(public)/sign-in.tsx, /src/pages/(public)/sign-in.tsx?tsr-split=component[22m [33m(x5)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:31:03 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(public)/sign-in.tsx, /src/pages/(public)/sign-in.tsx?tsr-split=component[22m [33m(x6)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:31:07 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(public)/sign-in.tsx, /src/pages/(public)/sign-in.tsx?tsr-split=component[22m [33m(x7)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:31:08 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(public)/sign-in.tsx, /src/pages/(public)/sign-in.tsx?tsr-split=component[22m [33m(x8)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:31:35 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(public)/sign-in.tsx, /src/pages/(public)/sign-in.tsx?tsr-split=component[22m [33m(x9)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:31:35 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(public)/sign-in.tsx, /src/pages/(public)/sign-in.tsx?tsr-split=component[22m [33m(x10)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:32:07 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(public)/sign-in.tsx, /src/pages/(public)/sign-in.tsx?tsr-split=component[22m [33m(x11)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:32:07 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(public)/sign-in.tsx, /src/pages/(public)/sign-in.tsx?tsr-split=component[22m [33m(x12)[39m
+Error parsing code /(public)/sign-in import { createFileRoute, Link } from "@tanstack/react-router";
+import { authClient } from "../../../lib/auth-client";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "@/components/ui/form";
+import { Loader2 } from "lucide-react";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { z } from "zod/v3";
+import { env } from "../../../env";
+
+const signInSchema = z.object({
+  email: z.string().email("Email inválido").min(1, "Email é obrigatório"),
+  password: z
+    .string()
+    .min(1, "Senha é obrigatória")
+    .min(6, "Senha deve ter pelo menos 6 caracteres"),
+});
+
+type SignInFormValues = z.infer<typeof signInSchema>;
+
+export const Route = createFileRoute("/(public)/sign-in")({
+  component: RouteComponent,
+});
+
+function RouteComponent() {
+  const form = useForm<SignInFormValues>({
+    resolver: zodResolver(signInSchema),
+    defaultValues: {
+      email: "",
+      password: "",
+    },
+  });
+  const {
+    formState: { isSubmitting },
+  } = form;
+
+  async function handleSignIn(data: SignInFormValues) {
+    const from = Route.useSearch() as { from?: string };
+    const callbackURL = from?.from
+      ? `${env.CLIENT_URL}${from.from}`
+      : (`${env.CLIENT_URL}/dashboard` = await authClient.signIn.email(
+          {
+            email: data.email,
+            password: data.password,
+            callbackURL,
+          },
+          {
+            onError: (context) => {
+              if (context.error.message) {
+                alert(context.error.message);
+              } else {
+                alert("Erro ao fazer login");
+              }
+            },
+          }
+        ));
+  }
+
+  return (
+    <div className="flex flex-col justify-center items-center h-screen gap-8">
+      <h1 className="text-3xl md:text-4xl font-bold">Bem-vindo de volta</h1>
+      <Card className="max-w-md w-full">
+        <CardHeader>
+          <CardTitle className="text-lg md:text-xl">Entrar</CardTitle>
+          <CardDescription className="text-xs md:text-sm">
+            Digite seu email abaixo para fazer login na sua conta
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <Form {...form}>
+            <form
+              onSubmit={form.handleSubmit(handleSignIn)}
+              className="grid gap-4"
+            >
+              <FormField
+                control={form.control}
+                name="email"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>E-mail</FormLabel>
+                    <FormControl>
+                      <Input
+                        type="email"
+                        placeholder="m@exemplo.com"
+                        {...field}
+                      />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+
+              <FormField
+                control={form.control}
+                name="password"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>Senha</FormLabel>
+                    <FormControl>
+                      <Input
+                        type="password"
+                        placeholder="senha"
+                        autoComplete="current-password"
+                        {...field}
+                      />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+
+              <Button type="submit" className="w-full" disabled={isSubmitting}>
+                {isSubmitting ? (
+                  <Loader2 size={16} className="animate-spin" />
+                ) : (
+                  <p> Entrar </p>
+                )}
+              </Button>
+            </form>
+          </Form>
+          <CardFooter className="flex justify-center">
+            <p className="mt-2">
+              Não tem uma conta?{" "}
+              <Link to="/sign-up" className="text-blue-500">
+                Cadastrar aqui
+              </Link>
+            </p>
+          </CardFooter>
+        </CardContent>
+      </Card>
+    </div>
+  );
+}
+ SyntaxError: Invalid left-hand side in assignment expression. (57:9)
+    at constructor (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:367:19)
+    at TypeScriptParserMixin.raise (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:6624:19)
+    at TypeScriptParserMixin.checkLVal (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:7548:12)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10925:12)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:9839:20)
+    at /home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10864:39
+    at TypeScriptParserMixin.allowInAnd (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12500:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10864:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12567:17)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:11747:28)
+    at TypeScriptParserMixin.parseExprAtom (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:11395:23)
+    at TypeScriptParserMixin.parseExprAtom (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:4793:20)
+    at TypeScriptParserMixin.parseExprSubscripts (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:11145:23)
+    at TypeScriptParserMixin.parseUpdate (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:11130:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:11110:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:9890:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10963:61)
+    at TypeScriptParserMixin.parseExprOps (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10968:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10945:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10895:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:9839:20)
+    at TypeScriptParserMixin.parseConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10957:29)
+    at TypeScriptParserMixin.parseConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:9664:18)
+    at TypeScriptParserMixin.parseMaybeConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10949:17)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10895:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:9839:20)
+    at /home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10864:39
+    at TypeScriptParserMixin.allowInAnd (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12495:16)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10864:17)
+    at TypeScriptParserMixin.parseVar (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:13460:91)
+    at TypeScriptParserMixin.parseVarStatement (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:13306:10)
+    at TypeScriptParserMixin.parseVarStatement (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:9469:31)
+    at TypeScriptParserMixin.parseStatementContent (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12927:23)
+    at TypeScriptParserMixin.parseStatementContent (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:9569:18)
+    at TypeScriptParserMixin.parseStatementLike (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12843:17)
+    at TypeScriptParserMixin.parseStatementListItem (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12823:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:13392:61)
+    at TypeScriptParserMixin.parseBlockBody (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:13385:10)
+    at TypeScriptParserMixin.parseBlock (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:13373:10)
+    at TypeScriptParserMixin.parseFunctionBody (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12174:24)
+    at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12160:10)
+    at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:9223:18)
+    at /home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:13521:12
+    at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12477:14)
+    at TypeScriptParserMixin.parseFunction (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:13520:10)
+    at TypeScriptParserMixin.parseFunctionStatement (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:13201:17)
+    at TypeScriptParserMixin.parseStatementContent (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12966:25)
+    at TypeScriptParserMixin.parseStatementContent (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:9569:18)
+    at TypeScriptParserMixin.parseStatementLike (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12843:17)
+    at TypeScriptParserMixin.parseStatementListItem (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12823:17) {
+  code: [32m'BABEL_PARSER_SYNTAX_ERROR'[39m,
+  reasonCode: [32m'InvalidLhs'[39m,
+  loc: Position { line: [33m57[39m, column: [33m9[39m, index: [33m1472[39m },
+  pos: [33m1472[39m,
+  syntaxPlugin: [90mundefined[39m
+}
+Error: Error transforming route file /home/rodrigo/tests/tanstack-route-exemple/apps/web/src/pages/(public)/sign-in.tsx: SyntaxError: Invalid left-hand side in assignment expression. (57:9)
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:32:10 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(public)/sign-in.tsx, /src/pages/(public)/sign-in.tsx?tsr-split=component[22m [33m(x13)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:32:10 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Invalid left-hand side in assignment expression. (57:9)[39m
+  Plugin: [35mtanstack-router:code-splitter:compile-reference-file[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/pages/(public)/sign-in.tsx[39m:57:9
+[33m  55 |      const callbackURL = from?.from
+  56 |        ? `${env.CLIENT_URL}${from.from}`
+  57 |        : (`${env.CLIENT_URL}/dashboard` = await authClient.signIn.email(
+     |           ^
+  58 |            {
+  59 |              email: data.email,[39m
+      at constructor (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptParserMixin.checkLVal (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:7548:12)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10925:12)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9839:20)
+      at /home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12567:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11747:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11395:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9839:20)
+      at TypeScriptParserMixin.parseConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10957:29)
+      at TypeScriptParserMixin.parseConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9664:18)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10949:17)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9839:20)
+      at /home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12495:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10864:17)
+      at TypeScriptParserMixin.parseVar (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13460:91)
+      at TypeScriptParserMixin.parseVarStatement (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13306:10)
+      at TypeScriptParserMixin.parseVarStatement (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9469:31)
+      at TypeScriptParserMixin.parseStatementContent (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12927:23)
+      at TypeScriptParserMixin.parseStatementContent (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12823:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13392:61)
+      at TypeScriptParserMixin.parseBlockBody (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseBlock (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13373:10)
+      at TypeScriptParserMixin.parseFunctionBody (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12174:24)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12160:10)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9223:18)
+      at /home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13521:12
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12477:14)
+      at TypeScriptParserMixin.parseFunction (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13520:10)
+      at TypeScriptParserMixin.parseFunctionStatement (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13201:17)
+      at TypeScriptParserMixin.parseStatementContent (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12966:25)
+      at TypeScriptParserMixin.parseStatementContent (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12823:17)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:32:10 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Invalid left-hand side in assignment expression. (57:9)[39m
+  Plugin: [35mtanstack-router:code-splitter:compile-virtual-file[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/pages/(public)/sign-in.tsx?tsr-split=component[39m:57:9
+[33m  55 |      const callbackURL = from?.from
+  56 |        ? `${env.CLIENT_URL}${from.from}`
+  57 |        : (`${env.CLIENT_URL}/dashboard` = await authClient.signIn.email(
+     |           ^
+  58 |            {
+  59 |              email: data.email,[39m
+      at constructor (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptParserMixin.checkLVal (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:7548:12)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10925:12)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9839:20)
+      at /home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12567:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11747:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11395:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9839:20)
+      at TypeScriptParserMixin.parseConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10957:29)
+      at TypeScriptParserMixin.parseConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9664:18)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10949:17)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9839:20)
+      at /home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12495:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10864:17)
+      at TypeScriptParserMixin.parseVar (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13460:91)
+      at TypeScriptParserMixin.parseVarStatement (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13306:10)
+      at TypeScriptParserMixin.parseVarStatement (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9469:31)
+      at TypeScriptParserMixin.parseStatementContent (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12927:23)
+      at TypeScriptParserMixin.parseStatementContent (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12823:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13392:61)
+      at TypeScriptParserMixin.parseBlockBody (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseBlock (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13373:10)
+      at TypeScriptParserMixin.parseFunctionBody (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12174:24)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12160:10)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9223:18)
+      at /home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13521:12
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12477:14)
+      at TypeScriptParserMixin.parseFunction (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13520:10)
+      at TypeScriptParserMixin.parseFunctionStatement (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13201:17)
+      at TypeScriptParserMixin.parseStatementContent (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12966:25)
+      at TypeScriptParserMixin.parseStatementContent (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12823:17)
+[2m9:32:10 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Invalid left-hand side in assignment expression. (57:9)
+  Plugin: [35mtanstack-router:code-splitter:compile-reference-file[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/pages/(public)/sign-in.tsx[39m:57:9
+[33m  55 |      const callbackURL = from?.from
+  56 |        ? `${env.CLIENT_URL}${from.from}`
+  57 |        : (`${env.CLIENT_URL}/dashboard` = await authClient.signIn.email(
+     |           ^
+  58 |            {
+  59 |              email: data.email,[39m
+Error parsing code /(public)/sign-in import { createFileRoute, Link } from "@tanstack/react-router";
+import { authClient } from "../../../lib/auth-client";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Input } from "@/components/ui/input";
+import { Button } from "@/components/ui/button";
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "@/components/ui/form";
+import { Loader2 } from "lucide-react";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { z } from "zod/v3";
+import { env } from "../../../env";
+
+const signInSchema = z.object({
+  email: z.string().email("Email inválido").min(1, "Email é obrigatório"),
+  password: z
+    .string()
+    .min(1, "Senha é obrigatória")
+    .min(6, "Senha deve ter pelo menos 6 caracteres"),
+});
+
+type SignInFormValues = z.infer<typeof signInSchema>;
+
+export const Route = createFileRoute("/(public)/sign-in")({
+  component: RouteComponent,
+});
+
+function RouteComponent() {
+  const form = useForm<SignInFormValues>({
+    resolver: zodResolver(signInSchema),
+    defaultValues: {
+      email: "",
+      password: "",
+    },
+  });
+  const {
+    formState: { isSubmitting },
+  } = form;
+
+  async function handleSignIn(data: SignInFormValues) {
+    const from = Route.useSearch() as { from?: string };
+    const callbackURL = from?.from
+      ? `${env.CLIENT_URL}${from.from}`
+      : (`${env.CLIENT_URL}/dashboard` = await authClient.signIn.email(
+          {
+            email: data.email,
+            password: data.password,
+            callbackURL,
+          },
+          {
+            onError: (context) => {
+              if (context.error.message) {
+                alert(context.error.message);
+              } else {
+                alert("Erro ao fazer login");
+              }
+            },
+          }
+        ));
+  }
+
+  return (
+    <div className="flex flex-col justify-center items-center h-screen gap-8">
+      <h1 className="text-3xl md:text-4xl font-bold">Bem-vindo de volta</h1>
+      <Card className="max-w-md w-full">
+        <CardHeader>
+          <CardTitle className="text-lg md:text-xl">Entrar</CardTitle>
+          <CardDescription className="text-xs md:text-sm">
+            Digite seu email abaixo para fazer login na sua conta
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <Form {...form}>
+            <form
+              onSubmit={form.handleSubmit(handleSignIn)}
+              className="grid gap-4"
+            >
+              <FormField
+                control={form.control}
+                name="email"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>E-mail</FormLabel>
+                    <FormControl>
+                      <Input
+                        type="email"
+                        placeholder="m@exemplo.com"
+                        {...field}
+                      />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+
+              <FormField
+                control={form.control}
+                name="password"
+                render={({ field }) => (
+                  <FormItem>
+                    <FormLabel>Senha</FormLabel>
+                    <FormControl>
+                      <Input
+                        type="password"
+                        placeholder="senha"
+                        autoComplete="current-password"
+                        {...field}
+                      />
+                    </FormControl>
+                    <FormMessage />
+                  </FormItem>
+                )}
+              />
+
+              <Button type="submit" className="w-full" disabled={isSubmitting}>
+                {isSubmitting ? (
+                  <Loader2 size={16} className="animate-spin" />
+                ) : (
+                  <p> Entrar </p>
+                )}
+              </Button>
+            </form>
+          </Form>
+          <CardFooter className="flex justify-center">
+            <p className="mt-2">
+              Não tem uma conta?{" "}
+              <Link to="/sign-up" className="text-blue-500">
+                Cadastrar aqui
+              </Link>
+            </p>
+          </CardFooter>
+        </CardContent>
+      </Card>
+    </div>
+  );
+}
+ SyntaxError: Invalid left-hand side in assignment expression. (57:9)
+    at constructor (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:367:19)
+    at TypeScriptParserMixin.raise (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:6624:19)
+    at TypeScriptParserMixin.checkLVal (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:7548:12)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10925:12)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:9839:20)
+    at /home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10864:39
+    at TypeScriptParserMixin.allowInAnd (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12500:12)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10864:17)
+    at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12567:17)
+    at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:11747:28)
+    at TypeScriptParserMixin.parseExprAtom (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:11395:23)
+    at TypeScriptParserMixin.parseExprAtom (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:4793:20)
+    at TypeScriptParserMixin.parseExprSubscripts (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:11145:23)
+    at TypeScriptParserMixin.parseUpdate (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:11130:21)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:11110:23)
+    at TypeScriptParserMixin.parseMaybeUnary (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:9890:18)
+    at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10963:61)
+    at TypeScriptParserMixin.parseExprOps (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10968:23)
+    at TypeScriptParserMixin.parseMaybeConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10945:23)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10895:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:9839:20)
+    at TypeScriptParserMixin.parseConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10957:29)
+    at TypeScriptParserMixin.parseConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:9664:18)
+    at TypeScriptParserMixin.parseMaybeConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10949:17)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10895:21)
+    at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:9839:20)
+    at /home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10864:39
+    at TypeScriptParserMixin.allowInAnd (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12495:16)
+    at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:10864:17)
+    at TypeScriptParserMixin.parseVar (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:13460:91)
+    at TypeScriptParserMixin.parseVarStatement (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:13306:10)
+    at TypeScriptParserMixin.parseVarStatement (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:9469:31)
+    at TypeScriptParserMixin.parseStatementContent (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12927:23)
+    at TypeScriptParserMixin.parseStatementContent (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:9569:18)
+    at TypeScriptParserMixin.parseStatementLike (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12843:17)
+    at TypeScriptParserMixin.parseStatementListItem (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12823:17)
+    at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:13392:61)
+    at TypeScriptParserMixin.parseBlockBody (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:13385:10)
+    at TypeScriptParserMixin.parseBlock (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:13373:10)
+    at TypeScriptParserMixin.parseFunctionBody (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12174:24)
+    at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12160:10)
+    at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:9223:18)
+    at /home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:13521:12
+    at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12477:14)
+    at TypeScriptParserMixin.parseFunction (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:13520:10)
+    at TypeScriptParserMixin.parseFunctionStatement (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:13201:17)
+    at TypeScriptParserMixin.parseStatementContent (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12966:25)
+    at TypeScriptParserMixin.parseStatementContent (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:9569:18)
+    at TypeScriptParserMixin.parseStatementLike (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12843:17)
+    at TypeScriptParserMixin.parseStatementListItem (/home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@babel+parser@7.28.5/node_modules/[4m@babel/parser[24m/lib/index.js:12823:17) {
+  code: [32m'BABEL_PARSER_SYNTAX_ERROR'[39m,
+  reasonCode: [32m'InvalidLhs'[39m,
+  loc: Position { line: [33m57[39m, column: [33m9[39m, index: [33m1472[39m },
+  pos: [33m1472[39m,
+  syntaxPlugin: [90mundefined[39m
+}
+Error: Error transforming route file /home/rodrigo/tests/tanstack-route-exemple/apps/web/src/pages/(public)/sign-in.tsx: SyntaxError: Invalid left-hand side in assignment expression. (57:9)
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:32:10 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(public)/sign-in.tsx, /src/pages/(public)/sign-in.tsx?tsr-split=component[22m
+[2m9:32:10 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Invalid left-hand side in assignment expression. (57:9)
+  Plugin: [35mtanstack-router:code-splitter:compile-reference-file[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/pages/(public)/sign-in.tsx[39m:57:9
+[33m  55 |      const callbackURL = from?.from
+  56 |        ? `${env.CLIENT_URL}${from.from}`
+  57 |        : (`${env.CLIENT_URL}/dashboard` = await authClient.signIn.email(
+     |           ^
+  58 |            {
+  59 |              email: data.email,[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:32:11 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Invalid left-hand side in assignment expression. (57:9)[39m
+  Plugin: [35mtanstack-router:code-splitter:compile-reference-file[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/pages/(public)/sign-in.tsx[39m:57:9
+[33m  55 |      const callbackURL = from?.from
+  56 |        ? `${env.CLIENT_URL}${from.from}`
+  57 |        : (`${env.CLIENT_URL}/dashboard` = await authClient.signIn.email(
+     |           ^
+  58 |            {
+  59 |              email: data.email,[39m
+      at constructor (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptParserMixin.checkLVal (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:7548:12)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10925:12)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9839:20)
+      at /home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12567:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11747:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11395:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9839:20)
+      at TypeScriptParserMixin.parseConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10957:29)
+      at TypeScriptParserMixin.parseConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9664:18)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10949:17)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9839:20)
+      at /home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12495:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10864:17)
+      at TypeScriptParserMixin.parseVar (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13460:91)
+      at TypeScriptParserMixin.parseVarStatement (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13306:10)
+      at TypeScriptParserMixin.parseVarStatement (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9469:31)
+      at TypeScriptParserMixin.parseStatementContent (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12927:23)
+      at TypeScriptParserMixin.parseStatementContent (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12823:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13392:61)
+      at TypeScriptParserMixin.parseBlockBody (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseBlock (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13373:10)
+      at TypeScriptParserMixin.parseFunctionBody (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12174:24)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12160:10)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9223:18)
+      at /home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13521:12
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12477:14)
+      at TypeScriptParserMixin.parseFunction (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13520:10)
+      at TypeScriptParserMixin.parseFunctionStatement (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:13201:17)
+      at TypeScriptParserMixin.parseStatementContent (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12966:25)
+      at TypeScriptParserMixin.parseStatementContent (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12823:17)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:32:14 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(public)/sign-in.tsx, /src/pages/(public)/sign-in.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:32:38 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(public)/sign-in.tsx, /src/pages/(public)/sign-in.tsx?tsr-split=component[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:32:38 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(public)/sign-in.tsx, /src/pages/(public)/sign-in.tsx?tsr-split=component[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:32:59 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/settings.lazy.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:32:59 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx[22m
+[2m9:32:59 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m9:32:59 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:33:21 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:33:22 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:33:36 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:33:37 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m [33m(x4)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:33:37 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /home/rodrigo/tests/tanstack-route-exemple/apps/web/src/components/navbar.tsx: Expected corresponding JSX closing tag for <Link>. (189:12)
+
+[0m [90m 187 |[31m [90m                Search[31m
+ [90m 188 |[31m [90m              </Link> */[31m}
+[31m[1m>[22m[31m[90m 189 |[31m             [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m     |[31m             [31m[1m^[22m[31m
+ [90m 190 |[31m           [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 191 |[31m         [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 192 |[31m       )}[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/components/navbar.tsx[39m:189:12
+[33m  187 |                  Search
+  188 |                </Link> */}
+  189 |              </div>
+      |              ^
+  190 |            </div>
+  191 |          </div>[39m
+      at constructor (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4756:16)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4727:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4727:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4727:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4778:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4788:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9828:39
+      at TypeScriptParserMixin.tryParse (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:6932:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9828:18)
+      at /home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12567:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11747:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11395:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOpBaseRightExpr (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11050:34)
+      at TypeScriptParserMixin.parseExprOpRightExpr (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11045:21)
+      at TypeScriptParserMixin.parseExprOp (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11011:27)
+      at TypeScriptParserMixin.parseExprOp (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9365:18)
+      at TypeScriptParserMixin.parseExprOps (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10972:17)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9839:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10844:39
+      at TypeScriptParserMixin.allowInAnd (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12500:12)
+      at TypeScriptParserMixin.parseExpression (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10844:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4661:31)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4740:36)
+      at TypeScriptParserMixin.jsxParseElement (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4778:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4788:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11110:23)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:33:37 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: /home/rodrigo/tests/tanstack-route-exemple/apps/web/src/components/navbar.tsx: Expected corresponding JSX closing tag for <Link>. (189:12)
+
+[0m [90m 187 |[31m [90m                Search[31m
+ [90m 188 |[31m [90m              </Link> */[31m}
+[31m[1m>[22m[31m[90m 189 |[31m             [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m     |[31m             [31m[1m^[22m[31m
+ [90m 190 |[31m           [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 191 |[31m         [33m<[31m[33m/[31m[33mdiv[31m[33m>[31m
+ [90m 192 |[31m       )}[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/components/navbar.tsx[39m:189:12
+[33m  187 |                  Search
+  188 |                </Link> */}
+  189 |              </div>
+      |              ^
+  190 |            </div>
+  191 |          </div>[39m
+      at constructor (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4756:16)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4727:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4727:32)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4727:32)
+      at TypeScriptParserMixin.jsxParseElement (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4778:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4788:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10895:21)
+      at /home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9828:39
+      at TypeScriptParserMixin.tryParse (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:6932:20)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9828:18)
+      at /home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12500:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10864:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12567:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11747:28)
+      at TypeScriptParserMixin.parseExprAtom (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11395:23)
+      at TypeScriptParserMixin.parseExprAtom (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOpBaseRightExpr (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11050:34)
+      at TypeScriptParserMixin.parseExprOpRightExpr (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11045:21)
+      at TypeScriptParserMixin.parseExprOp (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11011:27)
+      at TypeScriptParserMixin.parseExprOp (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9365:18)
+      at TypeScriptParserMixin.parseExprOps (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10972:17)
+      at TypeScriptParserMixin.parseMaybeConditional (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:9839:20)
+      at TypeScriptParserMixin.parseExpressionBase (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10848:23)
+      at /home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10844:39
+      at TypeScriptParserMixin.allowInAnd (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:12500:12)
+      at TypeScriptParserMixin.parseExpression (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:10844:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4661:31)
+      at TypeScriptParserMixin.jsxParseElementAt (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4740:36)
+      at TypeScriptParserMixin.jsxParseElement (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4778:17)
+      at TypeScriptParserMixin.parseExprAtom (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:4788:19)
+      at TypeScriptParserMixin.parseExprSubscripts (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/@babel+parser@7.28.5/node_modules/@babel/parser/lib/index.js:11110:23) [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:33:40 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/components/navbar.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:38:05 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/index.tsx, /src/global.css, /src/pages/index.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:38:15 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/index.tsx, /src/global.css, /src/pages/index.tsx?tsr-split=component[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:38:22 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/index.tsx, /src/global.css, /src/pages/index.tsx?tsr-split=component[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:38:28 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/index.tsx, /src/global.css, /src/pages/index.tsx?tsr-split=component[22m [33m(x4)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:38:30 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/index.tsx, /src/global.css, /src/pages/index.tsx?tsr-split=component[22m [33m(x5)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:38:30 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/index.tsx, /src/global.css, /src/pages/index.tsx?tsr-split=component[22m [33m(x6)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:38:41 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/index.tsx, /src/global.css, /src/pages/index.tsx?tsr-split=component[22m [33m(x7)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:38:41 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/index.tsx, /src/global.css, /src/pages/index.tsx?tsr-split=component[22m [33m(x8)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:38:46 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/index.tsx, /src/global.css, /src/pages/index.tsx?tsr-split=component[22m [33m(x9)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:38:46 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/index.tsx, /src/global.css, /src/pages/index.tsx?tsr-split=component[22m [33m(x10)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:38:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/index.tsx, /src/global.css, /src/pages/index.tsx?tsr-split=component[22m [33m(x11)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:38:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/index.tsx, /src/global.css, /src/pages/index.tsx?tsr-split=component[22m [33m(x12)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:38:51 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/index.tsx, /src/global.css, /src/pages/index.tsx?tsr-split=component[22m [33m(x13)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:38:51 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/index.tsx, /src/global.css, /src/pages/index.tsx?tsr-split=component[22m [33m(x14)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:39:16 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/index.tsx, /src/global.css, /src/pages/index.tsx?tsr-split=component[22m [33m(x15)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:39:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/index.tsx, /src/global.css, /src/pages/index.tsx?tsr-split=component[22m [33m(x16)[39m
