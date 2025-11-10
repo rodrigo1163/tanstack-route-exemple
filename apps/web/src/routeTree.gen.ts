@@ -18,7 +18,7 @@ import { Route as publicSignInRouteImport } from './pages/(public)/sign-in'
 import { Route as privateToDoRouteImport } from './pages/(private)/to-do'
 import { Route as privateSearchRouteImport } from './pages/(private)/search'
 import { Route as privateDashboardRouteImport } from './pages/(private)/dashboard'
-import { Route as privateOrgSlugAnimalsRouteImport } from './pages/(private)/org/$slug/animals'
+import { Route as privateOrgSlugAnimalsIndexRouteImport } from './pages/(private)/org/$slug/animals/index'
 
 const ForgotRoute = ForgotRouteImport.update({
   id: '/forgot',
@@ -63,11 +63,12 @@ const privateDashboardRoute = privateDashboardRouteImport.update({
   path: '/dashboard',
   getParentRoute: () => privateLayoutRoute,
 } as any)
-const privateOrgSlugAnimalsRoute = privateOrgSlugAnimalsRouteImport.update({
-  id: '/org/$slug/animals',
-  path: '/org/$slug/animals',
-  getParentRoute: () => privateLayoutRoute,
-} as any)
+const privateOrgSlugAnimalsIndexRoute =
+  privateOrgSlugAnimalsIndexRouteImport.update({
+    id: '/org/$slug/animals/',
+    path: '/org/$slug/animals/',
+    getParentRoute: () => privateLayoutRoute,
+  } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
@@ -77,7 +78,7 @@ export interface FileRoutesByFullPath {
   '/to-do': typeof privateToDoRoute
   '/sign-in': typeof publicSignInRoute
   '/sign-up': typeof publicSignUpRoute
-  '/org/$slug/animals': typeof privateOrgSlugAnimalsRoute
+  '/org/$slug/animals': typeof privateOrgSlugAnimalsIndexRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
@@ -87,7 +88,7 @@ export interface FileRoutesByTo {
   '/to-do': typeof privateToDoRoute
   '/sign-in': typeof publicSignInRoute
   '/sign-up': typeof publicSignUpRoute
-  '/org/$slug/animals': typeof privateOrgSlugAnimalsRoute
+  '/org/$slug/animals': typeof privateOrgSlugAnimalsIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -100,7 +101,7 @@ export interface FileRoutesById {
   '/(private)/to-do': typeof privateToDoRoute
   '/(public)/sign-in': typeof publicSignInRoute
   '/(public)/sign-up': typeof publicSignUpRoute
-  '/(private)/org/$slug/animals': typeof privateOrgSlugAnimalsRoute
+  '/(private)/org/$slug/animals/': typeof privateOrgSlugAnimalsIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -134,7 +135,7 @@ export interface FileRouteTypes {
     | '/(private)/to-do'
     | '/(public)/sign-in'
     | '/(public)/sign-up'
-    | '/(private)/org/$slug/animals'
+    | '/(private)/org/$slug/animals/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -209,11 +210,11 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof privateDashboardRouteImport
       parentRoute: typeof privateLayoutRoute
     }
-    '/(private)/org/$slug/animals': {
-      id: '/(private)/org/$slug/animals'
+    '/(private)/org/$slug/animals/': {
+      id: '/(private)/org/$slug/animals/'
       path: '/org/$slug/animals'
       fullPath: '/org/$slug/animals'
-      preLoaderRoute: typeof privateOrgSlugAnimalsRouteImport
+      preLoaderRoute: typeof privateOrgSlugAnimalsIndexRouteImport
       parentRoute: typeof privateLayoutRoute
     }
   }
@@ -223,14 +224,14 @@ interface privateLayoutRouteChildren {
   privateDashboardRoute: typeof privateDashboardRoute
   privateSearchRoute: typeof privateSearchRoute
   privateToDoRoute: typeof privateToDoRoute
-  privateOrgSlugAnimalsRoute: typeof privateOrgSlugAnimalsRoute
+  privateOrgSlugAnimalsIndexRoute: typeof privateOrgSlugAnimalsIndexRoute
 }
 
 const privateLayoutRouteChildren: privateLayoutRouteChildren = {
   privateDashboardRoute: privateDashboardRoute,
   privateSearchRoute: privateSearchRoute,
   privateToDoRoute: privateToDoRoute,
-  privateOrgSlugAnimalsRoute: privateOrgSlugAnimalsRoute,
+  privateOrgSlugAnimalsIndexRoute: privateOrgSlugAnimalsIndexRoute,
 }
 
 const privateLayoutRouteWithChildren = privateLayoutRoute._addFileChildren(

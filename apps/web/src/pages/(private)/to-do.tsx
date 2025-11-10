@@ -10,8 +10,19 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { useTasksQuery, type Todo } from "@/hooks/use-tasks-query";
+import { useTasksQuery } from "@/hooks/use-tasks-query";
 import { useTasksMutations } from "@/hooks/use-tasks-mutations";
+import { useMutation, useQueryClient } from "@tanstack/react-query";
+import { api } from "lib/axios";
+import {
+  createTask,
+  deleteTask,
+  updateTask,
+  type CreateTaskInput,
+  type TasksResponse,
+  type Todo,
+  type UpdateTaskInput,
+} from "@/api/tasks-api";
 
 export const Route = createFileRoute("/(private)/to-do")({
   component: RouteComponent,
@@ -24,7 +35,6 @@ function RouteComponent() {
   const [filter, setFilter] = useState<Filter>("all");
 
   const { data, isLoading, error } = useTasksQuery();
-  const { createTask, updateTask, deleteTask } = useTasksMutations();
 
   const todos = useMemo<Todo[]>(() => {
     if (!data?.tasks) return [];
@@ -35,38 +45,51 @@ function RouteComponent() {
     }));
   }, [data]);
 
-  const addTodo = async () => {
-    if (inputValue.trim() === "") return;
+  const queryClient = useQueryClient();
 
-    try {
-      await createTask.mutateAsync({ text: inputValue.trim() });
-      setInputValue("");
-    } catch (error) {
-      console.error("Erro ao criar tarefa:", error);
-    }
-  };
-
-  const toggleTodo = async (id: string) => {
-    const todo = todos.find((t) => t.id === id);
-    if (!todo) return;
-
-    try {
-      await updateTask.mutateAsync({
-        id,
-        data: { completed: !todo.completed },
+  const { mutateAsync: createTaskFn, isPending: isCreatingTask } = useMutation({
+    mutationFn: async (input: CreateTaskInput) => {
+      return await createTask({ text: input.text });
+    },
+    onSuccess: (data) => {
+      queryClient.setQueryData<TasksResponse>(["tasks"], (oldData) => {
+        if (!oldData) return oldData;
+        return {
+          tasks: [data.task, ...oldData.tasks],
+        };
       });
-    } catch (error) {
-      console.error("Erro ao atualizar tarefa:", error);
-    }
-  };
+    },
+  });
 
-  const deleteTodo = async (id: string) => {
-    try {
-      await deleteTask.mutateAsync({ id });
-    } catch (error) {
-      console.error("Erro ao deletar tarefa:", error);
-    }
-  };
+  const { mutateAsync: updateTaskFn, isPending: isUpdatingTask } = useMutation({
+    mutationFn: async (input: UpdateTaskInput) => {
+      return await updateTask(input.id, input.data);
+    },
+    onSuccess: (data) => {
+      queryClient.setQueryData<TasksResponse>(["tasks"], (oldData) => {
+        if (!oldData) return oldData;
+        return {
+          tasks: oldData.tasks.map((task) =>
+            task.id === data.task.id ? data.task : task
+          ),
+        };
+      });
+    },
+  });
+
+  const { mutateAsync: deleteTaskFn, isPending: isDeletingTask } = useMutation({
+    mutationFn: async (id: string) => {
+      return await deleteTask(id);
+    },
+    onSuccess: (_, id) => {
+      queryClient.setQueryData<TasksResponse>(["tasks"], (oldData) => {
+        if (!oldData) return oldData;
+        return {
+          tasks: oldData.tasks.filter((task) => task.id !== id),
+        };
+      });
+    },
+  });
 
   const filteredTodos = todos.filter((todo) => {
     if (filter === "active") return !todo.completed;
@@ -79,7 +102,7 @@ function RouteComponent() {
 
   const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Enter") {
-      addTodo();
+      createTaskFn({ text: inputValue.trim() });
     }
   };
 
@@ -104,12 +127,12 @@ function RouteComponent() {
                 className="flex-1"
               />
               <Button
-                onClick={addTodo}
+                onClick={() => createTaskFn({ text: inputValue.trim() })}
                 size="default"
-                disabled={createTask.isPending}
+                disabled={isCreatingTask}
               >
                 <Plus className="size-4" />
-                {createTask.isPending ? "Adicionando..." : "Adicionar"}
+                {isCreatingTask ? "Adicionando..." : "Adicionar"}
               </Button>
             </div>
 
@@ -172,7 +195,12 @@ function RouteComponent() {
                   >
                     <button
                       type="button"
-                      onClick={() => toggleTodo(todo.id)}
+                      onClick={() =>
+                        updateTaskFn({
+                          id: todo.id,
+                          data: { completed: !todo.completed },
+                        })
+                      }
                       className="shrink-0 text-muted-foreground hover:text-primary transition-colors"
                       aria-label={
                         todo.completed
@@ -198,7 +226,7 @@ function RouteComponent() {
                     <Button
                       variant="ghost"
                       size="icon-sm"
-                      onClick={() => deleteTodo(todo.id)}
+                      onClick={() => deleteTaskFn(todo.id)}
                       className="opacity-0 group-hover:opacity-100 transition-opacity text-destructive hover:text-destructive hover:bg-destructive/10"
                       aria-label="Deletar tarefa"
                     >

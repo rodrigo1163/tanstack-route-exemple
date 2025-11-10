@@ -1,7 +1,7 @@
 import { getAnimalsApi } from "@/api/get-animals-api";
 import { createFileRoute } from "@tanstack/react-router";
 
-export const Route = createFileRoute("/(private)/org/$slug/animals")({
+export const Route = createFileRoute("/(private)/org/$slug/animals/")({
   component: RouteComponent,
   head: () => ({
     meta: [

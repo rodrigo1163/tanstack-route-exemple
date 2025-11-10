@@ -1,38 +1,19 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
-import { createTaskApi } from "@/api/create-task-api";
-import { updateTaskApi } from "@/api/update-task-api";
-import { deleteTaskApi } from "@/api/delete-task-api";
-
-type CreateTaskInput = {
-  text: string;
-};
-
-type UpdateTaskInput = {
-  id: string;
-  data: { text?: string; completed?: boolean };
-};
-
-type DeleteTaskInput = {
-  id: string;
-};
-
-type TasksResponse = {
-  tasks: Array<{
-    id: string;
-    text: string;
-    completed: boolean;
-    createdAt: string;
-    updatedAt: string;
-    userId: string;
-  }>;
-};
+import {
+  createTask,
+  updateTask,
+  deleteTask,
+  type CreateTaskInput,
+  type UpdateTaskInput,
+  type TasksResponse,
+} from "@/api/tasks-api";
 
 export function useTasksMutations() {
   const queryClient = useQueryClient();
 
   const createTaskMutation = useMutation({
     mutationFn: async (input: CreateTaskInput) => {
-      return await createTaskApi(input.text);
+      return await createTask({ text: input.text });
     },
     onSuccess: (data) => {
       queryClient.setQueryData<TasksResponse>(["tasks"], (oldData) => {
@@ -46,7 +27,7 @@ export function useTasksMutations() {
 
   const updateTaskMutation = useMutation({
     mutationFn: async (input: UpdateTaskInput) => {
-      return await updateTaskApi(input.id, input.data);
+      return await updateTask(input.id, input.data);
     },
     onSuccess: (data) => {
       queryClient.setQueryData<TasksResponse>(["tasks"], (oldData) => {
@@ -61,14 +42,14 @@ export function useTasksMutations() {
   });
 
   const deleteTaskMutation = useMutation({
-    mutationFn: async (input: DeleteTaskInput) => {
-      return await deleteTaskApi(input.id);
+    mutationFn: async (id: string) => {
+      return await deleteTask(id);
     },
-    onSuccess: (_, variables) => {
+    onSuccess: (_, id) => {
       queryClient.setQueryData<TasksResponse>(["tasks"], (oldData) => {
         if (!oldData) return oldData;
         return {
-          tasks: oldData.tasks.filter((task) => task.id !== variables.id),
+          tasks: oldData.tasks.filter((task) => task.id !== id),
         };
       });
     },

@@ -3096,3 +3096,3689 @@ Error: Error transforming route file /home/rodrigo/tests/tanstack-route-exemple/
 
 
 [1;1H[0J[2m9:39:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/index.tsx, /src/global.css, /src/pages/index.tsx?tsr-split=component[22m [33m(x16)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:52:52 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx[22m
+[2m9:52:52 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m9:52:52 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:52:59 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/org/$slug/animals/index.tsx, /src/pages/(private)/org/$slug/animals/index.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:53:03 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/org/$slug/animals.tsx, /src/pages/(private)/org/$slug/animals.tsx?tsr-split=notFoundComponent, /src/pages/(private)/org/$slug/animals.tsx?tsr-split=errorComponent, /src/pages/(private)/org/$slug/animals.tsx?tsr-split=component[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:53:03 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx[22m
+[2m9:53:03 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m9:53:03 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:53:19 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/org/$slug/animals/index.tsx, /src/pages/(private)/org/$slug/animals/index.tsx?tsr-split=component, /src/pages/(private)/org/$slug/animals/index.tsx?tsr-split=notFoundComponent, /src/pages/(private)/org/$slug/animals/index.tsx?tsr-split=errorComponent, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:53:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx[22m
+[2m9:53:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m9:53:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:53:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/org/$slug/animals/index.tsx, /src/pages/(private)/org/$slug/animals/index.tsx?tsr-split=component, /src/pages/(private)/org/$slug/animals/index.tsx?tsr-split=notFoundComponent, /src/pages/(private)/org/$slug/animals/index.tsx?tsr-split=errorComponent, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:53:54 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/org/$slug/animals/page.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:54:15 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/org/$slug/animals/index.tsx, /src/pages/(private)/org/$slug/animals/index.tsx?tsr-split=component, /src/pages/(private)/org/$slug/animals/index.tsx?tsr-split=notFoundComponent, /src/pages/(private)/org/$slug/animals/index.tsx?tsr-split=errorComponent, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:54:15 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/org/$slug/animals/index.tsx, /src/pages/(private)/org/$slug/animals/index.tsx?tsr-split=component, /src/pages/(private)/org/$slug/animals/index.tsx?tsr-split=notFoundComponent, /src/pages/(private)/org/$slug/animals/index.tsx?tsr-split=errorComponent, /src/global.css[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:54:15 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:54:15 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/org/$slug/animals/page.tsx, /src/global.css[22m
+[2m9:54:15 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m9:54:15 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:54:18 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/org/$slug/animals/index.tsx, /src/pages/(private)/org/$slug/animals/index.tsx?tsr-split=component, /src/pages/(private)/org/$slug/animals/index.tsx?tsr-split=notFoundComponent, /src/pages/(private)/org/$slug/animals/index.tsx?tsr-split=errorComponent, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:54:19 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/org/$slug/animals/index.tsx, /src/pages/(private)/org/$slug/animals/index.tsx?tsr-split=component, /src/pages/(private)/org/$slug/animals/index.tsx?tsr-split=notFoundComponent, /src/pages/(private)/org/$slug/animals/index.tsx?tsr-split=errorComponent, /src/global.css[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:55:23 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx[22m
+[2m9:55:24 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m9:55:24 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:55:50 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/main.tsx[22m
+[2m9:55:50 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/main.tsx[22m Could not Fast Refresh ("true" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m9:55:50 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/main.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:55:50 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/org/$slug/animals/@components/teste.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:56:37 AM[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+[2m9:56:37 AM[22m [36m[1m[vite][22m[39m server restarted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:56:53 AM[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async BasicMinimalPluginContext.configResolved (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:59:9)
+    at async Promise.all (index 0)
+    at async resolveConfig (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:36286:2)
+    at async _createServer (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:25969:67)
+    at async restartServer (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26375:16)
+    at async restartServerWithUrls (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26412:2)
+    at async handleHMRUpdate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26572:4)
+    at async onHMRUpdate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26163:35)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26188:3)
+[2m9:56:53 AM[22m [36m[1m[vite][22m[39m server restarted.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:56:53 AM[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async BasicMinimalPluginContext.configResolved (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:59:9)
+    at async Promise.all (index 0)
+    at async resolveConfig (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:36286:2)
+    at async _createServer (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:25969:67)
+    at async restartServer (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26375:16)
+    at async restartServerWithUrls (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26412:2)
+    at async handleHMRUpdate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26572:4)
+    at async onHMRUpdate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26163:35)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26188:3)
+[2m9:56:53 AM[22m [36m[1m[vite][22m[39m server restarted.
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async onFileAddUnlink (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26168:3)
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async onFileAddUnlink (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26168:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:57:01 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/org/$slug/animals/index.tsx, /src/global.css[22m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:57:04 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:57:04 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m [33m(x2)[39m
+[2m9:57:09 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/pages/(private)/org/$slug/animals/index.tsx (resolved id: /home/rodrigo/tests/tanstack-route-exemple/apps/web/src/pages/(private)/org/$slug/animals/index.tsx) in /home/rodrigo/tests/tanstack-route-exemple/apps/web/src/routeTree.gen.ts. Does the file exist?
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:57:16 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:57:17 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m [33m(x2)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async onFileAddUnlink (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26168:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:57:28 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/org/$slug/animals/index.tsx, /src/global.css[22m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async onFileAddUnlink (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26168:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:57:28 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async onFileAddUnlink (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26168:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:57:39 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m [33m(x2)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async onFileAddUnlink (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26168:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:57:40 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/org/$slug/animals/index.tsx, /src/global.css[22m
+[2m9:57:46 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/pages/(private)/org/$slug/animals/index.tsx (resolved id: /home/rodrigo/tests/tanstack-route-exemple/apps/web/src/pages/(private)/org/$slug/animals/index.tsx) in /home/rodrigo/tests/tanstack-route-exemple/apps/web/src/routeTree.gen.ts. Does the file exist?
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async onFileAddUnlink (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26168:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:57:55 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/org/$slug/animals/index.tsx, /src/global.css[22m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async onFileAddUnlink (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26168:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:57:55 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:57:59 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/org/$slug/animals/index.tsx, /src/global.css[22m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:58:02 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/org/$slug/animals/index.tsx, /src/global.css[22m [33m(x2)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m9:58:02 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/org/$slug/animals/index.tsx, /src/global.css[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:00:00 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:01:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:01:21 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:01:58 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:01:59 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x4)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:09:43 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x5)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:09:58 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x6)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:10:17 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:10:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:10:22 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:12:21 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:12:21 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:12:54 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:12:54 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m [33m(x4)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:13:25 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m [33m(x5)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:14:07 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m [33m(x6)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:14:40 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m [33m(x7)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:15:46 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m [33m(x8)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:15:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m [33m(x9)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:15:54 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m [33m(x10)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:15:57 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/api/get-animals-api.tsx[22m
+[2m10:15:59 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/api/create-task-api.ts (resolved id: /home/rodrigo/tests/tanstack-route-exemple/apps/web/src/api/create-task-api.ts) in /home/rodrigo/tests/tanstack-route-exemple/apps/web/src/hooks/use-tasks-mutations.ts. Does the file exist?
+[2m10:15:59 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/api/update-task-api.ts (resolved id: /home/rodrigo/tests/tanstack-route-exemple/apps/web/src/api/update-task-api.ts) in /home/rodrigo/tests/tanstack-route-exemple/apps/web/src/hooks/use-tasks-mutations.ts. Does the file exist?
+[2m10:15:59 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to load url /src/api/delete-task-api.ts (resolved id: /home/rodrigo/tests/tanstack-route-exemple/apps/web/src/api/delete-task-api.ts) in /home/rodrigo/tests/tanstack-route-exemple/apps/web/src/hooks/use-tasks-mutations.ts. Does the file exist?
+[2m10:15:59 AM[22m [31m[1m[vite][22m[39m [31m[2m(client)[22m[39m Pre-transform error: Failed to resolve import "@/api/get-tasks-api" from "src/hooks/use-tasks-query.ts". Does the file exist?
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/hooks/use-tasks-query.ts[39m:2:28
+[33m  1  |  import { useQuery } from "@tanstack/react-query";
+  2  |  import { getTasksApi } from "@/api/get-tasks-api";
+     |                               ^
+  3  |  export function useTasksQuery() {
+  4  |    return useQuery({[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:15:59 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "@/api/get-tasks-api" from "src/hooks/use-tasks-query.ts". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/hooks/use-tasks-query.ts[39m:2:28
+[33m  1  |  import { useQuery } from "@tanstack/react-query";
+  2  |  import { getTasksApi } from "@/api/get-tasks-api";
+     |                               ^
+  3  |  export function useTasksQuery() {
+  4  |    return useQuery({[39m
+      at TransformPluginContext._formatLog (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+      at async viteTransformMiddleware (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:25149:20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:16:07 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/org/$slug/animals/index.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:16:07 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:16:07 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "@/api/get-tasks-api" from "src/hooks/use-tasks-query.ts". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/hooks/use-tasks-query.ts[39m:2:28
+[33m  1  |  import { useQuery } from "@tanstack/react-query";
+  2  |  import { getTasksApi } from "@/api/get-tasks-api";
+     |                               ^
+  3  |  export function useTasksQuery() {
+  4  |    return useQuery({[39m
+      at TransformPluginContext._formatLog (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+      at async viteTransformMiddleware (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:25149:20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:16:24 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/org/$slug/animals/index.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:16:24 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:16:24 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "@/api/get-tasks-api" from "src/hooks/use-tasks-query.ts". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/hooks/use-tasks-query.ts[39m:2:28
+[33m  1  |  import { useQuery } from "@tanstack/react-query";
+  2  |  import { getTasksApi } from "@/api/get-tasks-api";
+     |                               ^
+  3  |  export function useTasksQuery() {
+  4  |    return useQuery({[39m
+      at TransformPluginContext._formatLog (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+      at async viteTransformMiddleware (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:25149:20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:16:55 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:16:55 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "@/api/get-tasks-api" from "src/hooks/use-tasks-query.ts". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/hooks/use-tasks-query.ts[39m:2:28
+[33m  1  |  import { useQuery } from "@tanstack/react-query";
+  2  |  import { getTasksApi } from "@/api/get-tasks-api";
+     |                               ^
+  3  |  export function useTasksQuery() {
+  4  |    return useQuery({[39m
+      at TransformPluginContext._formatLog (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+      at async viteTransformMiddleware (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:25149:20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:16:56 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:16:56 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "@/api/get-tasks-api" from "src/hooks/use-tasks-query.ts". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/hooks/use-tasks-query.ts[39m:2:28
+[33m  1  |  import { useQuery } from "@tanstack/react-query";
+  2  |  import { getTasksApi } from "@/api/get-tasks-api";
+     |                               ^
+  3  |  export function useTasksQuery() {
+  4  |    return useQuery({[39m
+      at TransformPluginContext._formatLog (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+      at async viteTransformMiddleware (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:25149:20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:17:11 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:17:11 AM[22m [31m[1m[vite][22m[39m [31mInternal server error: Failed to resolve import "@/api/get-tasks-api" from "src/hooks/use-tasks-query.ts". Does the file exist?[39m
+  Plugin: [35mvite:import-analysis[39m
+  File: [36m/home/rodrigo/tests/tanstack-route-exemple/apps/web/src/hooks/use-tasks-query.ts[39m:2:28
+[33m  1  |  import { useQuery } from "@tanstack/react-query";
+  2  |  import { getTasksApi } from "@/api/get-tasks-api";
+     |                               ^
+  3  |  export function useTasksQuery() {
+  4  |    return useQuery({[39m
+      at TransformPluginContext._formatLog (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29608:43)
+      at TransformPluginContext.error (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29605:14)
+      at normalizeUrl (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27728:18)
+      at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+      at async file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27786:32
+      at async Promise.all (index 1)
+      at async TransformPluginContext.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:27754:4)
+      at async EnvironmentPluginContainer.transform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:29406:14)
+      at async loadAndTransform (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:23277:26)
+      at async viteTransformMiddleware (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/.pnpm/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/vite/dist/node/chunks/config.js:25149:20)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:17:37 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:17:37 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:17:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:17:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x4)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:18:08 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x5)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:18:08 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x6)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:18:11 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x7)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:18:26 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x8)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:18:27 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x9)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:18:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x10)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:18:35 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x11)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:19:14 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x12)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:19:55 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x13)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:02 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x14)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:03 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x15)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:11 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x16)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:11 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x17)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:20:38 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x18)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:21:09 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x19)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:21:58 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x20)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:22:00 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x21)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:22:02 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x22)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:22:04 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x23)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:22:08 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:22:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:22:23 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:22:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x3)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:22:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x4)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:22:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x5)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:22:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:22:35 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:22:35 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:22:35 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x3)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:22:35 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:24:08 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:24:21 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x2)[39m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:25:15 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x3)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:25:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:25:35 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:25:35 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m [33m(x2)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async onFileAddUnlink (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26168:3)
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async onFileAddUnlink (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26168:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:28:34 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/dashboard.tsx, /src/global.css[22m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async onFileAddUnlink (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26168:3)
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async onFileAddUnlink (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26168:3)
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async onFileAddUnlink (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26168:3)
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async onFileAddUnlink (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26168:3)
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:44:37 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/global.css, /src/pages/(private)/to-do.tsx[22m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:47:27 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:48:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x2)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:48:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x3)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:48:48 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x4)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:48:57 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x5)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:49:05 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x6)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:49:05 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x7)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:49:13 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x8)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:49:13 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x9)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:50:40 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x10)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:50:44 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x11)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:50:44 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x12)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:51:06 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x13)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:51:06 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x14)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:51:06 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x15)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:51:55 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x16)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:51:56 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x17)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:52:00 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x18)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:52:06 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x19)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:52:07 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x20)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:52:11 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x21)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:58:46 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x22)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m10:59:37 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x23)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:01:44 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x24)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:02:03 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x25)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:02:14 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x26)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:02:14 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x27)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:02:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x28)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:02:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x29)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:02:36 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x30)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:02:58 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x31)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:03:05 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x32)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:03:05 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x33)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:03:17 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x34)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:03:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x35)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:03:49 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x36)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:03:58 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x37)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:03:59 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x38)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:04:04 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x39)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:05:04 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x40)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:05:04 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x41)[39m
+Error: rootRouteNode must not be undefined. Make sure you've added your root route into the route-tree.
+Make sure that you add a "__root.tsx" file to your routes directory.
+Add the file in: "./src/pages/__root.tsx"
+    at file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-generator@1.134.12/node_modules/[4m@tanstack/router-generator[24m/dist/esm/generator.js:141:19
+    at async generate (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:41:7)
+    at async PluginContext.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/@tanstack+router-plugin@1.134.12_@tanstack+react-router@1.134.12_react-dom@19.2.0_react_f76b51546040190c7baca3eba5e90cd9/node_modules/[4m@tanstack/router-plugin[24m/dist/esm/core/router-generator-plugin.js:51:7)
+    at async Promise.all (index 1)
+    at async EnvironmentPluginContainer.hookParallel (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29270:3)
+    at async EnvironmentPluginContainer.watchChange (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:29430:3)
+    at async Promise.all (index 0)
+    at async FSWatcher.<anonymous> (file:///home/rodrigo/tests/tanstack-route-exemple/node_modules/[4m.pnpm[24m/vite@7.2.0_@types+node@22.19.0_jiti@2.6.1_lightningcss@1.30.2_tsx@4.20.6_yaml@2.8.1/node_modules/[4mvite[24m/dist/node/chunks/config.js:26186:3)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[1;1H[0J[2m11:05:38 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/(private)/to-do.tsx, /src/global.css[22m [33m(x42)[39m
