@@ -12,29 +12,29 @@ import { createFileRoute } from '@tanstack/react-router'
 
 import { Route as rootRouteImport } from './pages/__root'
 import { Route as ForgotRouteImport } from './pages/forgot'
-import { Route as PublicLayoutRouteImport } from './pages/_public/layout'
-import { Route as PrivateLayoutRouteImport } from './pages/_private/layout'
+import { Route as publicLayoutRouteImport } from './pages/(public)/layout'
+import { Route as privateLayoutRouteImport } from './pages/(private)/layout'
 import { Route as IndexRouteImport } from './pages/index'
-import { Route as PublicSignUpRouteImport } from './pages/_public/sign-up'
-import { Route as PublicSignInRouteImport } from './pages/_public/sign-in'
-import { Route as PrivateToDoRouteImport } from './pages/_private/to-do'
-import { Route as PrivateSearchRouteImport } from './pages/_private/search'
-import { Route as PrivateDashboardRouteImport } from './pages/_private/dashboard'
-import { Route as PrivateOrgSlugAnimalsRouteImport } from './pages/_private/org/$slug/animals'
+import { Route as publicSignUpRouteImport } from './pages/(public)/sign-up'
+import { Route as publicSignInRouteImport } from './pages/(public)/sign-in'
+import { Route as privateToDoRouteImport } from './pages/(private)/to-do'
+import { Route as privateSearchRouteImport } from './pages/(private)/search'
+import { Route as privateDashboardRouteImport } from './pages/(private)/dashboard'
+import { Route as privateOrgSlugAnimalsRouteImport } from './pages/(private)/org/$slug/animals'
 
-const PrivateSettingsLazyRouteImport = createFileRoute('/_private/settings')()
+const privateSettingsLazyRouteImport = createFileRoute('/(private)/settings')()
 
 const ForgotRoute = ForgotRouteImport.update({
   id: '/forgot',
   path: '/forgot',
   getParentRoute: () => rootRouteImport,
 } as any)
-const PublicLayoutRoute = PublicLayoutRouteImport.update({
-  id: '/_public',
+const publicLayoutRoute = publicLayoutRouteImport.update({
+  id: '/(public)',
   getParentRoute: () => rootRouteImport,
 } as any)
-const PrivateLayoutRoute = PrivateLayoutRouteImport.update({
-  id: '/_private',
+const privateLayoutRoute = privateLayoutRouteImport.update({
+  id: '/(private)',
   getParentRoute: () => rootRouteImport,
 } as any)
 const IndexRoute = IndexRouteImport.update({
@@ -42,79 +42,79 @@ const IndexRoute = IndexRouteImport.update({
   path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
-const PrivateSettingsLazyRoute = PrivateSettingsLazyRouteImport.update({
-  id: '/settings',
-  path: '/settings',
-  getParentRoute: () => PrivateLayoutRoute,
-} as any).lazy(() =>
-  import('./pages/_private/settings.lazy').then((d) => d.Route),
-)
-const PublicSignUpRoute = PublicSignUpRouteImport.update({
+const privateSettingsLazyRoute = privateSettingsLazyRouteImport
+  .update({
+    id: '/settings',
+    path: '/settings',
+    getParentRoute: () => privateLayoutRoute,
+  } as any)
+  .lazy(() => import('./pages/(private)/settings.lazy').then((d) => d.Route))
+const publicSignUpRoute = publicSignUpRouteImport.update({
   id: '/sign-up',
   path: '/sign-up',
-  getParentRoute: () => PublicLayoutRoute,
+  getParentRoute: () => publicLayoutRoute,
 } as any)
-const PublicSignInRoute = PublicSignInRouteImport.update({
+const publicSignInRoute = publicSignInRouteImport.update({
   id: '/sign-in',
   path: '/sign-in',
-  getParentRoute: () => PublicLayoutRoute,
+  getParentRoute: () => publicLayoutRoute,
 } as any)
-const PrivateToDoRoute = PrivateToDoRouteImport.update({
+const privateToDoRoute = privateToDoRouteImport.update({
   id: '/to-do',
   path: '/to-do',
-  getParentRoute: () => PrivateLayoutRoute,
+  getParentRoute: () => privateLayoutRoute,
 } as any)
-const PrivateSearchRoute = PrivateSearchRouteImport.update({
+const privateSearchRoute = privateSearchRouteImport.update({
   id: '/search',
   path: '/search',
-  getParentRoute: () => PrivateLayoutRoute,
+  getParentRoute: () => privateLayoutRoute,
 } as any)
-const PrivateDashboardRoute = PrivateDashboardRouteImport.update({
+const privateDashboardRoute = privateDashboardRouteImport.update({
   id: '/dashboard',
   path: '/dashboard',
-  getParentRoute: () => PrivateLayoutRoute,
+  getParentRoute: () => privateLayoutRoute,
 } as any)
-const PrivateOrgSlugAnimalsRoute = PrivateOrgSlugAnimalsRouteImport.update({
+const privateOrgSlugAnimalsRoute = privateOrgSlugAnimalsRouteImport.update({
   id: '/org/$slug/animals',
   path: '/org/$slug/animals',
-  getParentRoute: () => PrivateLayoutRoute,
+  getParentRoute: () => privateLayoutRoute,
 } as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/forgot': typeof ForgotRoute
-  '/dashboard': typeof PrivateDashboardRoute
-  '/search': typeof PrivateSearchRoute
-  '/to-do': typeof PrivateToDoRoute
-  '/sign-in': typeof PublicSignInRoute
-  '/sign-up': typeof PublicSignUpRoute
-  '/settings': typeof PrivateSettingsLazyRoute
-  '/org/$slug/animals': typeof PrivateOrgSlugAnimalsRoute
+  '/dashboard': typeof privateDashboardRoute
+  '/search': typeof privateSearchRoute
+  '/to-do': typeof privateToDoRoute
+  '/sign-in': typeof publicSignInRoute
+  '/sign-up': typeof publicSignUpRoute
+  '/settings': typeof privateSettingsLazyRoute
+  '/org/$slug/animals': typeof privateOrgSlugAnimalsRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/forgot': typeof ForgotRoute
-  '/dashboard': typeof PrivateDashboardRoute
-  '/search': typeof PrivateSearchRoute
-  '/to-do': typeof PrivateToDoRoute
-  '/sign-in': typeof PublicSignInRoute
-  '/sign-up': typeof PublicSignUpRoute
-  '/settings': typeof PrivateSettingsLazyRoute
-  '/org/$slug/animals': typeof PrivateOrgSlugAnimalsRoute
+  '/dashboard': typeof privateDashboardRoute
+  '/search': typeof privateSearchRoute
+  '/to-do': typeof privateToDoRoute
+  '/sign-in': typeof publicSignInRoute
+  '/sign-up': typeof publicSignUpRoute
+  '/settings': typeof privateSettingsLazyRoute
+  '/org/$slug/animals': typeof privateOrgSlugAnimalsRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
-  '/_private': typeof PrivateLayoutRouteWithChildren
-  '/_public': typeof PublicLayoutRouteWithChildren
+  '/(private)': typeof privateLayoutRouteWithChildren
+  '/(public)': typeof publicLayoutRouteWithChildren
   '/forgot': typeof ForgotRoute
-  '/_private/dashboard': typeof PrivateDashboardRoute
-  '/_private/search': typeof PrivateSearchRoute
-  '/_private/to-do': typeof PrivateToDoRoute
-  '/_public/sign-in': typeof PublicSignInRoute
-  '/_public/sign-up': typeof PublicSignUpRoute
-  '/_private/settings': typeof PrivateSettingsLazyRoute
-  '/_private/org/$slug/animals': typeof PrivateOrgSlugAnimalsRoute
+  '/(private)/dashboard': typeof privateDashboardRoute
+  '/(private)/search': typeof privateSearchRoute
+  '/(private)/to-do': typeof privateToDoRoute
+  '/(public)/sign-in': typeof publicSignInRoute
+  '/(public)/sign-up': typeof publicSignUpRoute
+  '/(private)/settings': typeof privateSettingsLazyRoute
+  '/(private)/org/$slug/animals': typeof privateOrgSlugAnimalsRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -142,22 +142,22 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
-    | '/_private'
-    | '/_public'
+    | '/(private)'
+    | '/(public)'
     | '/forgot'
-    | '/_private/dashboard'
-    | '/_private/search'
-    | '/_private/to-do'
-    | '/_public/sign-in'
-    | '/_public/sign-up'
-    | '/_private/settings'
-    | '/_private/org/$slug/animals'
+    | '/(private)/dashboard'
+    | '/(private)/search'
+    | '/(private)/to-do'
+    | '/(public)/sign-in'
+    | '/(public)/sign-up'
+    | '/(private)/settings'
+    | '/(private)/org/$slug/animals'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
-  PrivateLayoutRoute: typeof PrivateLayoutRouteWithChildren
-  PublicLayoutRoute: typeof PublicLayoutRouteWithChildren
+  privateLayoutRoute: typeof privateLayoutRouteWithChildren
+  publicLayoutRoute: typeof publicLayoutRouteWithChildren
   ForgotRoute: typeof ForgotRoute
 }
 
@@ -170,18 +170,18 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ForgotRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/_public': {
-      id: '/_public'
+    '/(public)': {
+      id: '/(public)'
       path: ''
       fullPath: ''
-      preLoaderRoute: typeof PublicLayoutRouteImport
+      preLoaderRoute: typeof publicLayoutRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/_private': {
-      id: '/_private'
+    '/(private)': {
+      id: '/(private)'
       path: ''
       fullPath: ''
-      preLoaderRoute: typeof PrivateLayoutRouteImport
+      preLoaderRoute: typeof privateLayoutRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/': {
@@ -191,96 +191,96 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/_private/settings': {
-      id: '/_private/settings'
+    '/(private)/settings': {
+      id: '/(private)/settings'
       path: '/settings'
       fullPath: '/settings'
-      preLoaderRoute: typeof PrivateSettingsLazyRouteImport
-      parentRoute: typeof PrivateLayoutRoute
+      preLoaderRoute: typeof privateSettingsLazyRouteImport
+      parentRoute: typeof privateLayoutRoute
     }
-    '/_public/sign-up': {
-      id: '/_public/sign-up'
+    '/(public)/sign-up': {
+      id: '/(public)/sign-up'
       path: '/sign-up'
       fullPath: '/sign-up'
-      preLoaderRoute: typeof PublicSignUpRouteImport
-      parentRoute: typeof PublicLayoutRoute
+      preLoaderRoute: typeof publicSignUpRouteImport
+      parentRoute: typeof publicLayoutRoute
     }
-    '/_public/sign-in': {
-      id: '/_public/sign-in'
+    '/(public)/sign-in': {
+      id: '/(public)/sign-in'
       path: '/sign-in'
       fullPath: '/sign-in'
-      preLoaderRoute: typeof PublicSignInRouteImport
-      parentRoute: typeof PublicLayoutRoute
+      preLoaderRoute: typeof publicSignInRouteImport
+      parentRoute: typeof publicLayoutRoute
     }
-    '/_private/to-do': {
-      id: '/_private/to-do'
+    '/(private)/to-do': {
+      id: '/(private)/to-do'
       path: '/to-do'
       fullPath: '/to-do'
-      preLoaderRoute: typeof PrivateToDoRouteImport
-      parentRoute: typeof PrivateLayoutRoute
+      preLoaderRoute: typeof privateToDoRouteImport
+      parentRoute: typeof privateLayoutRoute
     }
-    '/_private/search': {
-      id: '/_private/search'
+    '/(private)/search': {
+      id: '/(private)/search'
       path: '/search'
       fullPath: '/search'
-      preLoaderRoute: typeof PrivateSearchRouteImport
-      parentRoute: typeof PrivateLayoutRoute
+      preLoaderRoute: typeof privateSearchRouteImport
+      parentRoute: typeof privateLayoutRoute
     }
-    '/_private/dashboard': {
-      id: '/_private/dashboard'
+    '/(private)/dashboard': {
+      id: '/(private)/dashboard'
       path: '/dashboard'
       fullPath: '/dashboard'
-      preLoaderRoute: typeof PrivateDashboardRouteImport
-      parentRoute: typeof PrivateLayoutRoute
+      preLoaderRoute: typeof privateDashboardRouteImport
+      parentRoute: typeof privateLayoutRoute
     }
-    '/_private/org/$slug/animals': {
-      id: '/_private/org/$slug/animals'
+    '/(private)/org/$slug/animals': {
+      id: '/(private)/org/$slug/animals'
       path: '/org/$slug/animals'
       fullPath: '/org/$slug/animals'
-      preLoaderRoute: typeof PrivateOrgSlugAnimalsRouteImport
-      parentRoute: typeof PrivateLayoutRoute
+      preLoaderRoute: typeof privateOrgSlugAnimalsRouteImport
+      parentRoute: typeof privateLayoutRoute
     }
   }
 }
 
-interface PrivateLayoutRouteChildren {
-  PrivateDashboardRoute: typeof PrivateDashboardRoute
-  PrivateSearchRoute: typeof PrivateSearchRoute
-  PrivateToDoRoute: typeof PrivateToDoRoute
-  PrivateSettingsLazyRoute: typeof PrivateSettingsLazyRoute
-  PrivateOrgSlugAnimalsRoute: typeof PrivateOrgSlugAnimalsRoute
+interface privateLayoutRouteChildren {
+  privateDashboardRoute: typeof privateDashboardRoute
+  privateSearchRoute: typeof privateSearchRoute
+  privateToDoRoute: typeof privateToDoRoute
+  privateSettingsLazyRoute: typeof privateSettingsLazyRoute
+  privateOrgSlugAnimalsRoute: typeof privateOrgSlugAnimalsRoute
 }
 
-const PrivateLayoutRouteChildren: PrivateLayoutRouteChildren = {
-  PrivateDashboardRoute: PrivateDashboardRoute,
-  PrivateSearchRoute: PrivateSearchRoute,
-  PrivateToDoRoute: PrivateToDoRoute,
-  PrivateSettingsLazyRoute: PrivateSettingsLazyRoute,
-  PrivateOrgSlugAnimalsRoute: PrivateOrgSlugAnimalsRoute,
+const privateLayoutRouteChildren: privateLayoutRouteChildren = {
+  privateDashboardRoute: privateDashboardRoute,
+  privateSearchRoute: privateSearchRoute,
+  privateToDoRoute: privateToDoRoute,
+  privateSettingsLazyRoute: privateSettingsLazyRoute,
+  privateOrgSlugAnimalsRoute: privateOrgSlugAnimalsRoute,
 }
 
-const PrivateLayoutRouteWithChildren = PrivateLayoutRoute._addFileChildren(
-  PrivateLayoutRouteChildren,
+const privateLayoutRouteWithChildren = privateLayoutRoute._addFileChildren(
+  privateLayoutRouteChildren,
 )
 
-interface PublicLayoutRouteChildren {
-  PublicSignInRoute: typeof PublicSignInRoute
-  PublicSignUpRoute: typeof PublicSignUpRoute
+interface publicLayoutRouteChildren {
+  publicSignInRoute: typeof publicSignInRoute
+  publicSignUpRoute: typeof publicSignUpRoute
 }
 
-const PublicLayoutRouteChildren: PublicLayoutRouteChildren = {
-  PublicSignInRoute: PublicSignInRoute,
-  PublicSignUpRoute: PublicSignUpRoute,
+const publicLayoutRouteChildren: publicLayoutRouteChildren = {
+  publicSignInRoute: publicSignInRoute,
+  publicSignUpRoute: publicSignUpRoute,
 }
 
-const PublicLayoutRouteWithChildren = PublicLayoutRoute._addFileChildren(
-  PublicLayoutRouteChildren,
+const publicLayoutRouteWithChildren = publicLayoutRoute._addFileChildren(
+  publicLayoutRouteChildren,
 )
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  PrivateLayoutRoute: PrivateLayoutRouteWithChildren,
-  PublicLayoutRoute: PublicLayoutRouteWithChildren,
+  privateLayoutRoute: privateLayoutRouteWithChildren,
+  publicLayoutRoute: publicLayoutRouteWithChildren,
   ForgotRoute: ForgotRoute,
 }
 export const routeTree = rootRouteImport

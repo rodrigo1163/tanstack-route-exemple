@@ -1,4 +1,4 @@
-import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import { authClient } from "../../../lib/auth-client";
 import {
 	Card,
@@ -24,8 +24,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod/v3";
 import { env } from "../../../env";
 
-const signUpSchema = z.object({
-	name: z.string().min(1, "Nome é obrigatório"),
+const signInSchema = z.object({
 	email: z.string().email("Email inválido").min(1, "Email é obrigatório"),
 	password: z
 		.string()
@@ -33,78 +32,59 @@ const signUpSchema = z.object({
 		.min(6, "Senha deve ter pelo menos 6 caracteres"),
 });
 
-type SignUpFormValues = z.infer<typeof signUpSchema>;
+type SignInFormValues = z.infer<typeof signInSchema>;
 
-export const Route = createFileRoute("/_public/sign-up")({
+export const Route = createFileRoute("/(public)/sign-in")({
 	component: RouteComponent,
 });
 
 function RouteComponent() {
-	const navigate = useNavigate();
-	const form = useForm<SignUpFormValues>({
-		resolver: zodResolver(signUpSchema),
+	const form = useForm<SignInFormValues>({
+		resolver: zodResolver(signInSchema),
 		defaultValues: {
-			name: "",
 			email: "",
 			password: "",
 		},
-	});
+	})
 	const {
 		formState: { isSubmitting },
 	} = form;
 
-	async function handleSignUp(data: SignUpFormValues) {
-		await authClient.signUp.email(
+	async function handleSignIn(data: SignInFormValues) {
+		await authClient.signIn.email(
 			{
-				name: data.name,
 				email: data.email,
 				password: data.password,
-				callbackURL: `${env.CLIENT_URL}/sign-in`,
+				callbackURL: `${env.CLIENT_URL}/dashboard`,
 			},
 			{
 				onError: (context) => {
 					if (context.error.message) {
 						alert(context.error.message);
 					} else {
-						alert("Erro ao cadastrar");
+						alert("Erro ao fazer login");
 					}
 				},
-				onSuccess: () => {
-					navigate({ to: "/sign-in" });
-				},
 			},
-		);
+		)
 	}
 
 	return (
 		<div className="flex flex-col justify-center items-center h-screen gap-8">
-			<h1 className="text-3xl md:text-4xl font-bold">Crie sua conta</h1>
+			<h1 className="text-3xl md:text-4xl font-bold">Bem-vindo de volta</h1>
 			<Card className="max-w-md w-full">
 				<CardHeader>
-					<CardTitle className="text-lg md:text-xl">Cadastrar</CardTitle>
+					<CardTitle className="text-lg md:text-xl">Entrar</CardTitle>
 					<CardDescription className="text-xs md:text-sm">
-						Digite seu email abaixo para fazer cadastro na sua conta
+						Digite seu email abaixo para fazer login na sua conta
 					</CardDescription>
 				</CardHeader>
 				<CardContent>
 					<Form {...form}>
 						<form
-							onSubmit={form.handleSubmit(handleSignUp)}
+							onSubmit={form.handleSubmit(handleSignIn)}
 							className="grid gap-4"
 						>
-							<FormField
-								control={form.control}
-								name="name"
-								render={({ field }) => (
-									<FormItem>
-										<FormLabel>Nome</FormLabel>
-										<FormControl>
-											<Input placeholder="João da Silva" {...field} />
-										</FormControl>
-									</FormItem>
-								)}
-							/>
-
 							<FormField
 								control={form.control}
 								name="email"
@@ -146,21 +126,21 @@ function RouteComponent() {
 								{isSubmitting ? (
 									<Loader2 size={16} className="animate-spin" />
 								) : (
-									<p> Cadastrar </p>
+									<p> Entrar </p>
 								)}
 							</Button>
 						</form>
 					</Form>
 					<CardFooter className="flex justify-center">
 						<p className="mt-2">
-							Já tem uma conta?{" "}
-							<Link to="/sign-in" className="text-blue-500">
-								Entrar aqui
+							Não tem uma conta?{" "}
+							<Link to="/sign-up" className="text-blue-500">
+								Cadastrar aqui
 							</Link>
 						</p>
 					</CardFooter>
 				</CardContent>
 			</Card>
 		</div>
-	);
+	)
 }

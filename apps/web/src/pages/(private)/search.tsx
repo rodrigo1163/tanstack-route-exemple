@@ -16,7 +16,7 @@ const ItemFilters = z.object({
 
 type ItemFilters = z.infer<typeof ItemFilters>;
 
-export const Route = createFileRoute("/_private/search")({
+export const Route = createFileRoute("/(private)/search")({
   validateSearch: (search) => ItemFilters.parse(search),
   component: Search,
 });

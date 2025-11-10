@@ -15,7 +15,7 @@ import { getTasksApi } from "@/api/get-tasks-api";
 import { updateTaskApi } from "@/api/update-task-api";
 import { deleteTaskApi } from "@/api/delete-task-api";
 
-export const Route = createFileRoute("/_private/to-do")({
+export const Route = createFileRoute("/(private)/to-do")({
   component: RouteComponent,
 });
 

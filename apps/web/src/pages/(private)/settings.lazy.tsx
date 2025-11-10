@@ -1,6 +1,6 @@
 import { createLazyFileRoute } from "@tanstack/react-router";
 
-export const Route = createLazyFileRoute("/_private/settings")({
+export const Route = createLazyFileRoute("/(private)/settings")({
   component: RouteComponent,
 });
 

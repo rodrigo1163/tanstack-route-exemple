@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-export const Route = createFileRoute("/_private/dashboard")({
+export const Route = createFileRoute("/(private)/dashboard")({
 	component: RouteComponent,
 });
 
@@ -15,5 +15,5 @@ function RouteComponent() {
 			{isAuthenticated ? "Authenticated kk" : "Not authenticated"}{" "}
 			<pre>{JSON.stringify(session, null, 2)}</pre>
 		</div>
-	);
+	)
 }

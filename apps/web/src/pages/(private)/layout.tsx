@@ -1,7 +1,7 @@
 import { Navbar } from "@/components/navbar";
 import { createFileRoute, Outlet, redirect } from "@tanstack/react-router";
 
-export const Route = createFileRoute("/_private")({
+export const Route = createFileRoute("/(private)")({
   beforeLoad: async ({ context }) => {
     const { isAuthenticated } = context.auth;
     if (!isAuthenticated) {
