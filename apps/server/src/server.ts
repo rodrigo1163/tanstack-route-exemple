@@ -8,6 +8,9 @@ import { env } from "../env";
 import { auth } from "../lib/auth";
 import fastifyCors from "@fastify/cors";
 import { createTask } from "./router/todo/create-task";
+import { getTasks } from "./router/todo/get-tasks";
+import { updateTask } from "./router/todo/update-task";
+import { deleteTask } from "./router/todo/delete-task";
 
 const app = fastify().withTypeProvider<ZodTypeProvider>();
 
@@ -27,6 +30,9 @@ app.get("/health", () => {
 });
 
 app.register(createTask);
+app.register(getTasks);
+app.register(updateTask);
+app.register(deleteTask);
 
 app.route({
   method: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],

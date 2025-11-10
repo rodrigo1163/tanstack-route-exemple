@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Plus, Trash2, CheckCircle2, Circle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -11,6 +11,9 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { createTaskApi } from "@/api/create-task-api";
+import { getTasksApi } from "@/api/get-tasks-api";
+import { updateTaskApi } from "@/api/update-task-api";
+import { deleteTaskApi } from "@/api/delete-task-api";
 
 export const Route = createFileRoute("/_private/to-do")({
   component: RouteComponent,
@@ -28,30 +31,79 @@ function RouteComponent() {
   const [todos, setTodos] = useState<Todo[]>([]);
   const [inputValue, setInputValue] = useState("");
   const [filter, setFilter] = useState<Filter>("all");
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const loadTasks = async () => {
+      try {
+        setIsLoading(true);
+        const response = await getTasksApi();
+        setTodos(
+          response.tasks.map(
+            (task: { id: string; text: string; completed: boolean }) => ({
+              id: task.id,
+              text: task.text,
+              completed: task.completed,
+            })
+          )
+        );
+      } catch (error) {
+        console.error("Erro ao carregar tarefas:", error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    loadTasks();
+  }, []);
 
   const addTodo = async () => {
     if (inputValue.trim() === "") return;
 
-    const newTodo: Todo = {
-      id: Date.now().toString(),
-      text: inputValue.trim(),
-      completed: false,
-    };
-    await createTaskApi(inputValue.trim());
-    setTodos([...todos, newTodo]);
-    setInputValue("");
+    try {
+      const response = await createTaskApi(inputValue.trim());
+      const newTodo: Todo = {
+        id: response.task.id,
+        text: response.task.text,
+        completed: response.task.completed,
+      };
+      setTodos([...todos, newTodo]);
+      setInputValue("");
+    } catch (error) {
+      console.error("Erro ao criar tarefa:", error);
+    }
   };
 
-  const toggleTodo = (id: string) => {
-    setTodos(
-      todos.map((todo) =>
-        todo.id === id ? { ...todo, completed: !todo.completed } : todo
-      )
-    );
+  const toggleTodo = async (id: string) => {
+    const todo = todos.find((t) => t.id === id);
+    if (!todo) return;
+
+    try {
+      const response = await updateTaskApi(id, {
+        completed: !todo.completed,
+      });
+      setTodos(
+        todos.map((t) =>
+          t.id === id
+            ? {
+                ...t,
+                completed: response.task.completed,
+              }
+            : t
+        )
+      );
+    } catch (error) {
+      console.error("Erro ao atualizar tarefa:", error);
+    }
   };
 
-  const deleteTodo = (id: string) => {
-    setTodos(todos.filter((todo) => todo.id !== id));
+  const deleteTodo = async (id: string) => {
+    try {
+      await deleteTaskApi(id);
+      setTodos(todos.filter((todo) => todo.id !== id));
+    } catch (error) {
+      console.error("Erro ao deletar tarefa:", error);
+    }
   };
 
   const filteredTodos = todos.filter((todo) => {
@@ -124,7 +176,11 @@ function RouteComponent() {
 
             {/* Todo List */}
             <div className="space-y-2">
-              {filteredTodos.length === 0 ? (
+              {isLoading ? (
+                <div className="text-center py-12 text-muted-foreground">
+                  <p className="text-lg">Carregando tarefas...</p>
+                </div>
+              ) : filteredTodos.length === 0 ? (
                 <div className="text-center py-12 text-muted-foreground">
                   <p className="text-lg">
                     {todos.length === 0
