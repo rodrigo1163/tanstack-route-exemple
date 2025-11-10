@@ -11,18 +11,12 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { useTasksQuery } from "@/hooks/use-tasks-query";
-import { useTasksMutations } from "@/hooks/use-tasks-mutations";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
-import { api } from "lib/axios";
-import {
-  createTask,
-  deleteTask,
-  updateTask,
-  type CreateTaskInput,
-  type TasksResponse,
-  type Todo,
-  type UpdateTaskInput,
-} from "@/api/tasks-api";
+import { createTask } from "@/api/create-task";
+import { updateTask } from "@/api/update-task";
+import { deleteTask } from "@/api/delete-task";
+import type { CreateTaskInput } from "@/api/create-task";
+import type { GetTasksResponse, Todo, UpdateTaskInput } from "@/api/get-tasks";
 
 export const Route = createFileRoute("/(private)/to-do")({
   component: RouteComponent,
@@ -52,7 +46,7 @@ function RouteComponent() {
       return await createTask({ text: input.text });
     },
     onSuccess: (data) => {
-      queryClient.setQueryData<TasksResponse>(["tasks"], (oldData) => {
+      queryClient.setQueryData<GetTasksResponse>(["tasks"], (oldData) => {
         if (!oldData) return oldData;
         return {
           tasks: [data.task, ...oldData.tasks],
@@ -61,28 +55,30 @@ function RouteComponent() {
     },
   });
 
-  const { mutateAsync: updateTaskFn, isPending: isUpdatingTask } = useMutation({
+  const { mutateAsync: updateTaskFn } = useMutation({
     mutationFn: async (input: UpdateTaskInput) => {
-      return await updateTask(input.id, input.data);
+      await updateTask(input.id, input.data);
+      return input;
     },
-    onSuccess: (data) => {
-      queryClient.setQueryData<TasksResponse>(["tasks"], (oldData) => {
+    onSuccess: (input) => {
+      queryClient.setQueryData<GetTasksResponse>(["tasks"], (oldData) => {
         if (!oldData) return oldData;
         return {
           tasks: oldData.tasks.map((task) =>
-            task.id === data.task.id ? data.task : task
+            task.id === input.id ? { ...task, ...input.data } : task
           ),
         };
       });
     },
   });
 
-  const { mutateAsync: deleteTaskFn, isPending: isDeletingTask } = useMutation({
+  const { mutateAsync: deleteTaskFn } = useMutation({
     mutationFn: async (id: string) => {
-      return await deleteTask(id);
+      await deleteTask(id);
+      return id;
     },
-    onSuccess: (_, id) => {
-      queryClient.setQueryData<TasksResponse>(["tasks"], (oldData) => {
+    onSuccess: (id) => {
+      queryClient.setQueryData<GetTasksResponse>(["tasks"], (oldData) => {
         if (!oldData) return oldData;
         return {
           tasks: oldData.tasks.filter((task) => task.id !== id),
@@ -100,9 +96,14 @@ function RouteComponent() {
   const activeCount = todos.filter((todo) => !todo.completed).length;
   const completedCount = todos.filter((todo) => todo.completed).length;
 
-  const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === "Enter") {
-      createTaskFn({ text: inputValue.trim() });
+  const handleKeyPress = async (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === "Enter" && inputValue.trim() !== "") {
+      try {
+        await createTaskFn({ text: inputValue.trim() });
+        setInputValue("");
+      } catch (error) {
+        console.error("Erro ao criar tarefa:", error);
+      }
     }
   };
 
@@ -127,7 +128,15 @@ function RouteComponent() {
                 className="flex-1"
               />
               <Button
-                onClick={() => createTaskFn({ text: inputValue.trim() })}
+                onClick={async () => {
+                  if (inputValue.trim() === "") return;
+                  try {
+                    await createTaskFn({ text: inputValue.trim() });
+                    setInputValue("");
+                  } catch (error) {
+                    console.error("Erro ao criar tarefa:", error);
+                  }
+                }}
                 size="default"
                 disabled={isCreatingTask}
               >

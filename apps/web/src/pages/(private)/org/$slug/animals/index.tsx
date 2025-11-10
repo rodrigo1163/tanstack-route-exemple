@@ -1,4 +1,3 @@
-import { getAnimalsApi } from "@/api/get-animals-api";
 import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/(private)/org/$slug/animals/")({
@@ -11,8 +10,8 @@ export const Route = createFileRoute("/(private)/org/$slug/animals/")({
     ],
   }),
   loader: async ({ params }) => {
-    const animal = await getAnimalsApi({ slug: params.slug });
-    return { animal };
+    await new Promise((resolve) => setTimeout(resolve, 5000));
+    return { slug: params.slug };
   },
   pendingComponent: () => <div>Loading...</div>,
   errorComponent: () => <div>Error</div>,

@@ -1,10 +1,10 @@
 import { useQuery } from "@tanstack/react-query";
-import { getTasks, type TasksResponse } from "@/api/tasks-api";
+import { getTasks, type GetTasksResponse } from "@/api/get-tasks";
 
-export type { Todo, TasksResponse } from "@/api/tasks-api";
+export type { Todo, GetTasksResponse } from "@/api/get-tasks";
 
 export function useTasksQuery() {
-  return useQuery<TasksResponse, Error>({
+  return useQuery<GetTasksResponse, Error>({
     queryKey: ["tasks"],
     queryFn: async () => {
       return await getTasks();
