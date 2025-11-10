@@ -10,13 +10,23 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormMessage,
+} from "@/components/ui/form";
 import { useTasksQuery } from "@/hooks/use-tasks-query";
+import { TaskConfirmDeleteModal } from "@/pages/(private)/org/$slug/animals/-components/task-confirm-delete-modal";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { createTask } from "@/api/create-task";
 import { updateTask } from "@/api/update-task";
-import { deleteTask } from "@/api/delete-task";
 import type { CreateTaskInput } from "@/api/create-task";
 import type { GetTasksResponse, Todo, UpdateTaskInput } from "@/api/get-tasks";
+import { useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod";
+import { z } from "zod/v3";
 
 export const Route = createFileRoute("/(private)/to-do")({
   component: RouteComponent,
@@ -24,9 +34,22 @@ export const Route = createFileRoute("/(private)/to-do")({
 
 type Filter = "all" | "active" | "completed";
 
+const createTaskSchema = z.object({
+  text: z.string().trim().min(1, "O texto da tarefa é obrigatório"),
+});
+
+type CreateTaskFormValues = z.infer<typeof createTaskSchema>;
+
 function RouteComponent() {
-  const [inputValue, setInputValue] = useState("");
   const [filter, setFilter] = useState<Filter>("all");
+  const [taskToDelete, setTaskToDelete] = useState<Todo | null>(null);
+
+  const form = useForm<CreateTaskFormValues>({
+    resolver: zodResolver(createTaskSchema),
+    defaultValues: {
+      text: "",
+    },
+  });
 
   const { data, isLoading, error } = useTasksQuery();
 
@@ -72,21 +95,6 @@ function RouteComponent() {
     },
   });
 
-  const { mutateAsync: deleteTaskFn } = useMutation({
-    mutationFn: async (id: string) => {
-      await deleteTask(id);
-      return id;
-    },
-    onSuccess: (id) => {
-      queryClient.setQueryData<GetTasksResponse>(["tasks"], (oldData) => {
-        if (!oldData) return oldData;
-        return {
-          tasks: oldData.tasks.filter((task) => task.id !== id),
-        };
-      });
-    },
-  });
-
   const filteredTodos = todos.filter((todo) => {
     if (filter === "active") return !todo.completed;
     if (filter === "completed") return todo.completed;
@@ -96,15 +104,17 @@ function RouteComponent() {
   const activeCount = todos.filter((todo) => !todo.completed).length;
   const completedCount = todos.filter((todo) => todo.completed).length;
 
-  const handleKeyPress = async (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === "Enter" && inputValue.trim() !== "") {
-      try {
-        await createTaskFn({ text: inputValue.trim() });
-        setInputValue("");
-      } catch (error) {
-        console.error("Erro ao criar tarefa:", error);
-      }
+  const handleSubmit = async (data: CreateTaskFormValues) => {
+    try {
+      await createTaskFn({ text: data.text });
+      form.reset();
+    } catch (error) {
+      console.error("Erro ao criar tarefa:", error);
     }
+  };
+
+  const handleDeleteConfirm = () => {
+    setTaskToDelete(null);
   };
 
   return (
@@ -119,31 +129,39 @@ function RouteComponent() {
           </CardHeader>
           <CardContent className="space-y-6">
             {/* Input Section */}
-            <div className="flex gap-2">
-              <Input
-                placeholder="Adicione uma nova tarefa..."
-                value={inputValue}
-                onChange={(e) => setInputValue(e.target.value)}
-                onKeyPress={handleKeyPress}
-                className="flex-1"
-              />
-              <Button
-                onClick={async () => {
-                  if (inputValue.trim() === "") return;
-                  try {
-                    await createTaskFn({ text: inputValue.trim() });
-                    setInputValue("");
-                  } catch (error) {
-                    console.error("Erro ao criar tarefa:", error);
-                  }
-                }}
-                size="default"
-                disabled={isCreatingTask}
+            <Form {...form}>
+              <form
+                onSubmit={form.handleSubmit(handleSubmit)}
+                className="flex gap-2"
               >
-                <Plus className="size-4" />
-                {isCreatingTask ? "Adicionando..." : "Adicionar"}
-              </Button>
-            </div>
+                <FormField
+                  control={form.control}
+                  name="text"
+                  render={({ field }) => (
+                    <FormItem className="flex-1">
+                      <FormControl>
+                        <Input
+                          placeholder="Adicione uma nova tarefa..."
+                          className="flex-1"
+                          {...field}
+                          onKeyDown={(e) => {
+                            if (e.key === "Enter") {
+                              e.preventDefault();
+                              form.handleSubmit(handleSubmit)();
+                            }
+                          }}
+                        />
+                      </FormControl>
+                      <FormMessage />
+                    </FormItem>
+                  )}
+                />
+                <Button type="submit" size="default" disabled={isCreatingTask}>
+                  <Plus className="size-4" />
+                  {isCreatingTask ? "Adicionando..." : "Adicionar"}
+                </Button>
+              </form>
+            </Form>
 
             {/* Filter Buttons */}
             {todos.length > 0 && (
@@ -235,7 +253,7 @@ function RouteComponent() {
                     <Button
                       variant="ghost"
                       size="icon-sm"
-                      onClick={() => deleteTaskFn(todo.id)}
+                      onClick={() => setTaskToDelete(todo)}
                       className="opacity-0 group-hover:opacity-100 transition-opacity text-destructive hover:text-destructive hover:bg-destructive/10"
                       aria-label="Deletar tarefa"
                     >
@@ -264,6 +282,14 @@ function RouteComponent() {
           </CardContent>
         </Card>
       </div>
+
+      {/* Delete Confirmation Dialog */}
+      <TaskConfirmDeleteModal
+        open={!!taskToDelete}
+        onOpenChange={(open) => !open && setTaskToDelete(null)}
+        taskToDelete={taskToDelete}
+        onConfirm={handleDeleteConfirm}
+      />
     </div>
   );
 }
