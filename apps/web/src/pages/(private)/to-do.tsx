@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { useState, useEffect } from "react";
+import { useState, useMemo } from "react";
 import { Plus, Trash2, CheckCircle2, Circle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -10,64 +10,36 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { createTaskApi } from "@/api/create-task-api";
-import { getTasksApi } from "@/api/get-tasks-api";
-import { updateTaskApi } from "@/api/update-task-api";
-import { deleteTaskApi } from "@/api/delete-task-api";
+import { useTasksQuery, type Todo } from "@/hooks/use-tasks-query";
+import { useTasksMutations } from "@/hooks/use-tasks-mutations";
 
 export const Route = createFileRoute("/(private)/to-do")({
   component: RouteComponent,
 });
 
-type Todo = {
-  id: string;
-  text: string;
-  completed: boolean;
-};
-
 type Filter = "all" | "active" | "completed";
 
 function RouteComponent() {
-  const [todos, setTodos] = useState<Todo[]>([]);
   const [inputValue, setInputValue] = useState("");
   const [filter, setFilter] = useState<Filter>("all");
-  const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    const loadTasks = async () => {
-      try {
-        setIsLoading(true);
-        const response = await getTasksApi();
-        setTodos(
-          response.tasks.map(
-            (task: { id: string; text: string; completed: boolean }) => ({
-              id: task.id,
-              text: task.text,
-              completed: task.completed,
-            })
-          )
-        );
-      } catch (error) {
-        console.error("Erro ao carregar tarefas:", error);
-      } finally {
-        setIsLoading(false);
-      }
-    };
+  const { data, isLoading, error } = useTasksQuery();
+  const { createTask, updateTask, deleteTask } = useTasksMutations();
 
-    loadTasks();
-  }, []);
+  const todos = useMemo<Todo[]>(() => {
+    if (!data?.tasks) return [];
+    return data.tasks.map((task) => ({
+      id: task.id,
+      text: task.text,
+      completed: task.completed,
+    }));
+  }, [data]);
 
   const addTodo = async () => {
     if (inputValue.trim() === "") return;
 
     try {
-      const response = await createTaskApi(inputValue.trim());
-      const newTodo: Todo = {
-        id: response.task.id,
-        text: response.task.text,
-        completed: response.task.completed,
-      };
-      setTodos([...todos, newTodo]);
+      await createTask.mutateAsync({ text: inputValue.trim() });
       setInputValue("");
     } catch (error) {
       console.error("Erro ao criar tarefa:", error);
@@ -79,19 +51,10 @@ function RouteComponent() {
     if (!todo) return;
 
     try {
-      const response = await updateTaskApi(id, {
-        completed: !todo.completed,
+      await updateTask.mutateAsync({
+        id,
+        data: { completed: !todo.completed },
       });
-      setTodos(
-        todos.map((t) =>
-          t.id === id
-            ? {
-                ...t,
-                completed: response.task.completed,
-              }
-            : t
-        )
-      );
     } catch (error) {
       console.error("Erro ao atualizar tarefa:", error);
     }
@@ -99,8 +62,7 @@ function RouteComponent() {
 
   const deleteTodo = async (id: string) => {
     try {
-      await deleteTaskApi(id);
-      setTodos(todos.filter((todo) => todo.id !== id));
+      await deleteTask.mutateAsync({ id });
     } catch (error) {
       console.error("Erro ao deletar tarefa:", error);
     }
@@ -141,9 +103,13 @@ function RouteComponent() {
                 onKeyPress={handleKeyPress}
                 className="flex-1"
               />
-              <Button onClick={addTodo} size="default">
+              <Button
+                onClick={addTodo}
+                size="default"
+                disabled={createTask.isPending}
+              >
                 <Plus className="size-4" />
-                Adicionar
+                {createTask.isPending ? "Adicionando..." : "Adicionar"}
               </Button>
             </div>
 
@@ -179,6 +145,12 @@ function RouteComponent() {
               {isLoading ? (
                 <div className="text-center py-12 text-muted-foreground">
                   <p className="text-lg">Carregando tarefas...</p>
+                </div>
+              ) : error ? (
+                <div className="text-center py-12 text-destructive">
+                  <p className="text-lg">
+                    Erro ao carregar tarefas: {error.message}
+                  </p>
                 </div>
               ) : filteredTodos.length === 0 ? (
                 <div className="text-center py-12 text-muted-foreground">
