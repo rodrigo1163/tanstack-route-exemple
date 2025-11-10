@@ -23,7 +23,7 @@ const config: runtime.GetPrismaClientConfig = {
       "value": "prisma-client"
     },
     "output": {
-      "value": "/home/sena/studies/tanstack-route-exemple/apps/server/generated/prisma",
+      "value": "/home/rodrigo/tests/tanstack-route-exemple/apps/server/generated/prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -37,7 +37,7 @@ const config: runtime.GetPrismaClientConfig = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "/home/sena/studies/tanstack-route-exemple/apps/server/prisma/schema.prisma",
+    "sourceFilePath": "/home/rodrigo/tests/tanstack-route-exemple/apps/server/prisma/schema.prisma",
     "isCustomOutput": true
   },
   "relativePath": "../../prisma",
