@@ -45,7 +45,7 @@ function App() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background to-muted/20">
+    <div className="min-h-screen from-background to-muted/20">
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-16">
         <div className="flex flex-col items-center text-center space-y-8">
