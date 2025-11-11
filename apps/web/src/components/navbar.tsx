@@ -1,38 +1,15 @@
 import { Link } from "@tanstack/react-router";
-import { useAuth } from "@/context/auth-provider";
-import { authClient } from "../../lib/auth-client";
+import { useAuth } from "@/app/providers/auth-provider";
 import { Button } from "@/components/ui/button";
-import { LogOut, User } from "lucide-react";
-import { useState } from "react";
+import { AccountMenu } from "./account-menu";
+import { ThemeToggle } from "./theme-toggle";
 
 const activeProps = {
   className: "font-semibold text-primary",
 };
 
 export function Navbar() {
-  const { isAuthenticated, session } = useAuth();
-  const [isSigningOut, setIsSigningOut] = useState(false);
-
-  async function handleSignOut() {
-    setIsSigningOut(true);
-    try {
-      await authClient.signOut({
-        fetchOptions: {
-          onSuccess: () => {
-            // Usar window.location.href para garantir que o estado seja completamente resetado
-            window.location.href = "/sign-in";
-          },
-          onError: (ctx) => {
-            console.error("Erro ao fazer logout:", ctx.error);
-            setIsSigningOut(false);
-          },
-        },
-      });
-    } catch (error) {
-      console.error("Erro ao fazer logout:", error);
-      setIsSigningOut(false);
-    }
-  }
+  const { isAuthenticated } = useAuth();
 
   return (
     <nav className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-backdrop-filter:bg-background/60">
@@ -105,32 +82,8 @@ export function Navbar() {
           <div className="flex items-center gap-4">
             {isAuthenticated ? (
               <>
-                {/* User Info */}
-                <div className="hidden sm:flex items-center gap-3 px-3 py-2 rounded-md bg-accent/50">
-                  <div className="flex items-center justify-center size-8 rounded-full bg-primary/10 text-primary">
-                    <User className="size-4" />
-                  </div>
-                  <div className="flex flex-col">
-                    <span className="text-sm font-medium">
-                      {session?.user?.name || "Usuário"}
-                    </span>
-                    <span className="text-xs text-muted-foreground">
-                      {session?.user?.email}
-                    </span>
-                  </div>
-                </div>
-
-                {/* Sign Out Button */}
-                <Button
-                  variant="outline"
-                  size="sm"
-                  onClick={handleSignOut}
-                  disabled={isSigningOut}
-                  className="gap-2"
-                >
-                  <LogOut className="size-4" />
-                  {isSigningOut ? "Saindo..." : "Sair"}
-                </Button>
+                <ThemeToggle />
+                <AccountMenu />
               </>
             ) : (
               <div className="flex items-center gap-3">

@@ -8,8 +8,8 @@ import { routeTree } from "./routeTree.gen";
 import "./global.css";
 import reportWebVitals from "./reportWebVitals.ts";
 import { NotFound } from "./components/404.tsx";
-import { useAuth } from "./context/auth-provider.tsx";
-import { Provider } from "./providers/provider.tsx";
+import { useAuth } from "./app/providers/auth-provider.tsx";
+import { Provider } from "./app/providers/index.tsx";
 
 const router = createRouter({
   routeTree,
@@ -41,7 +41,7 @@ function InnerApp() {
   }
 
   if (auth.error) {
-    return <div>Error: {auth.error.message}</div>;
+    throw auth.error;
   }
 
   return <RouterProvider router={router} context={{ auth }} />;
