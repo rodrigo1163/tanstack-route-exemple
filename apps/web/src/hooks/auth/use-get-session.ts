@@ -1,6 +1,6 @@
-import { authClient } from "../../../lib/auth-client";
+import { authClient } from "../../lib/auth-client";
 
 export function useGetSession() {
-	const session = authClient.useSession();
-	return session;
+  const session = authClient.useSession();
+  return session;
 }

@@ -11,7 +11,7 @@ import {
 import { Building, ChevronDown, LogOut } from "lucide-react";
 import { Skeleton } from "./ui/skeleton";
 import { useState } from "react";
-import { authClient } from "../../lib/auth-client";
+import { authClient } from "../lib/auth-client";
 import { useAuth } from "@/app/providers/auth-provider";
 
 export function AccountMenu() {

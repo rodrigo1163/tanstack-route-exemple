@@ -1,4 +1,4 @@
-import { api } from "../../lib/axios";
+import { api } from "../lib/axios";
 import type { Task } from "./get-tasks";
 export type CreateTaskInput = {
   text: string;
