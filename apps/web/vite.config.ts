@@ -12,7 +12,6 @@ export default defineConfig({
       autoCodeSplitting: true,
       routesDirectory: "./src/pages",
       routeToken: "layout",
-      routeFilePrefix: "page",
     }),
     viteReact(),
     tailwindcss(),
