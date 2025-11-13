@@ -9,7 +9,6 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './pages/__root'
-import { Route as ForgotRouteImport } from './pages/forgot'
 import { Route as publicLayoutRouteImport } from './pages/(public)/layout'
 import { Route as privateLayoutRouteImport } from './pages/(private)/layout'
 import { Route as IndexRouteImport } from './pages/index'
@@ -20,11 +19,6 @@ import { Route as privateDashboardIndexRouteImport } from './pages/(private)/das
 import { Route as privatetodoTodoRouteImport } from './pages/(private)/(todo)/todo'
 import { Route as privateOrgSlugAnimalsIndexRouteImport } from './pages/(private)/org/$slug/animals/index'
 
-const ForgotRoute = ForgotRouteImport.update({
-  id: '/forgot',
-  path: '/forgot',
-  getParentRoute: () => rootRouteImport,
-} as any)
 const publicLayoutRoute = publicLayoutRouteImport.update({
   id: '/(public)',
   getParentRoute: () => rootRouteImport,
@@ -72,7 +66,6 @@ const privateOrgSlugAnimalsIndexRoute =
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
-  '/forgot': typeof ForgotRoute
   '/search': typeof privateSearchRoute
   '/sign-in': typeof publicSignInRoute
   '/sign-up': typeof publicSignUpRoute
@@ -82,7 +75,6 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
-  '/forgot': typeof ForgotRoute
   '/search': typeof privateSearchRoute
   '/sign-in': typeof publicSignInRoute
   '/sign-up': typeof publicSignUpRoute
@@ -95,7 +87,6 @@ export interface FileRoutesById {
   '/': typeof IndexRoute
   '/(private)': typeof privateLayoutRouteWithChildren
   '/(public)': typeof publicLayoutRouteWithChildren
-  '/forgot': typeof ForgotRoute
   '/(private)/search': typeof privateSearchRoute
   '/(public)/sign-in': typeof publicSignInRoute
   '/(public)/sign-up': typeof publicSignUpRoute
@@ -107,7 +98,6 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
-    | '/forgot'
     | '/search'
     | '/sign-in'
     | '/sign-up'
@@ -117,7 +107,6 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
-    | '/forgot'
     | '/search'
     | '/sign-in'
     | '/sign-up'
@@ -129,7 +118,6 @@ export interface FileRouteTypes {
     | '/'
     | '/(private)'
     | '/(public)'
-    | '/forgot'
     | '/(private)/search'
     | '/(public)/sign-in'
     | '/(public)/sign-up'
@@ -142,18 +130,10 @@ export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   privateLayoutRoute: typeof privateLayoutRouteWithChildren
   publicLayoutRoute: typeof publicLayoutRouteWithChildren
-  ForgotRoute: typeof ForgotRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/forgot': {
-      id: '/forgot'
-      path: '/forgot'
-      fullPath: '/forgot'
-      preLoaderRoute: typeof ForgotRouteImport
-      parentRoute: typeof rootRouteImport
-    }
     '/(public)': {
       id: '/(public)'
       path: ''
@@ -256,7 +236,6 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   privateLayoutRoute: privateLayoutRouteWithChildren,
   publicLayoutRoute: publicLayoutRouteWithChildren,
-  ForgotRoute: ForgotRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

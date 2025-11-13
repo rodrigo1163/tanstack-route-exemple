@@ -12,7 +12,7 @@ export default defineConfig({
       autoCodeSplitting: true,
       routesDirectory: "./src/pages",
       routeToken: "layout",
-      routeFileIgnorePattern: "(_components|_hooks|_utils)",
+      routeFileIgnorePattern: "(_components|_hooks|_helpers|_utils|_constants)",
     }),
     viteReact(),
     tailwindcss(),
