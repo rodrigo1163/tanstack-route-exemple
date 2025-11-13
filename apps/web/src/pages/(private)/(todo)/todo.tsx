@@ -17,20 +17,20 @@ import {
   FormItem,
   FormMessage,
 } from "@/components/ui/form";
-import { useTasksQuery } from "@/hooks/use-tasks-query";
-import { TaskConfirmDeleteModal } from "@/pages/(private)/org/$slug/animals/-components/task-confirm-delete-modal";
-import { TodoList } from "@/pages/(private)/org/$slug/animals/-components/todo-list";
-import { useMutation, useQueryClient } from "@tanstack/react-query";
+import { TodoConfirmDeleteModal } from "@/pages/(private)/(todo)/_components/todo-confirm-delete-modal";
+import { TodoList } from "@/pages/(private)/(todo)/_components/todo-list";
+import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { createTask } from "@/api/create-task";
 import { updateTask } from "@/api/update-task";
 import type { CreateTaskInput } from "@/api/create-task";
-import type { GetTasksResponse, Todo, UpdateTaskInput } from "@/api/get-tasks";
+import { getTasks, type GetTasksResponse, type Todo, type UpdateTaskInput } from "@/api/get-tasks";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod/v3";
+import { TodoSkeleton } from "./_components/todo-skeleton";
 
-export const Route = createFileRoute("/(private)/to-do")({
-  component: RouteComponent,
+export const Route = createFileRoute("/(private)/(todo)/todo")({
+  component: TodoRoute,
 });
 
 type Filter = "all" | "active" | "completed";
@@ -41,7 +41,7 @@ const createTaskSchema = z.object({
 
 type CreateTaskFormValues = z.infer<typeof createTaskSchema>;
 
-function RouteComponent() {
+function TodoRoute() {
   const [filter, setFilter] = useState<Filter>("all");
   const [taskToDelete, setTaskToDelete] = useState<Todo | null>(null);
 
@@ -51,8 +51,12 @@ function RouteComponent() {
       text: "",
     },
   });
+  const queryClient = useQueryClient();
 
-  const { data, isLoading, error } = useTasksQuery();
+  const { data, isLoading: isLoadingTasks, error } = useQuery<GetTasksResponse, Error>({
+    queryKey: ["tasks"],
+    queryFn: getTasks
+  });
 
   const todos = useMemo<Todo[]>(() => {
     if (!data?.tasks) return [];
@@ -63,7 +67,7 @@ function RouteComponent() {
     }));
   }, [data]);
 
-  const queryClient = useQueryClient();
+
 
   const { mutateAsync: createTaskFn, isPending: isCreatingTask } = useMutation({
     mutationFn: async (input: CreateTaskInput) => {
@@ -96,6 +100,12 @@ function RouteComponent() {
     },
   });
 
+  
+  async function handleSubmit (data: CreateTaskFormValues) {
+    await createTaskFn({ text: data.text });
+    form.reset();
+  };
+
   const filteredTodos = todos.filter((todo) => {
     if (filter === "active") return !todo.completed;
     if (filter === "completed") return todo.completed;
@@ -105,18 +115,10 @@ function RouteComponent() {
   const activeCount = todos.filter((todo) => !todo.completed).length;
   const completedCount = todos.filter((todo) => todo.completed).length;
 
-  const handleSubmit = async (data: CreateTaskFormValues) => {
-    try {
-      await createTaskFn({ text: data.text });
-      form.reset();
-    } catch (error) {
-      console.error("Erro ao criar tarefa:", error);
-    }
-  };
-
-  const handleDeleteConfirm = () => {
-    setTaskToDelete(null);
-  };
+  if (isLoadingTasks) {
+    return <TodoSkeleton />
+  }
+  
 
   return (
     <div className="min-h-screen bg-background py-8 px-4">
@@ -195,7 +197,7 @@ function RouteComponent() {
             <TodoList
               todos={todos}
               filteredTodos={filteredTodos}
-              isLoading={isLoading}
+              isLoading={isLoadingTasks}
               error={error}
               filter={filter}
               onToggleComplete={updateTaskFn}
@@ -222,11 +224,10 @@ function RouteComponent() {
       </div>
 
       {/* Delete Confirmation Dialog */}
-      <TaskConfirmDeleteModal
+      <TodoConfirmDeleteModal
         open={!!taskToDelete}
         onOpenChange={(open) => !open && setTaskToDelete(null)}
         taskToDelete={taskToDelete}
-        onConfirm={handleDeleteConfirm}
       />
     </div>
   );

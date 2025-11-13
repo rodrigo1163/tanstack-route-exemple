@@ -15,14 +15,12 @@ interface TaskConfirmDeleteModalProps {
   open: boolean;
   onOpenChange: (open: boolean) => void;
   taskToDelete: Todo | null;
-  onConfirm?: () => void;
 }
 
-export function TaskConfirmDeleteModal({
+export function TodoConfirmDeleteModal({
   open,
   onOpenChange,
   taskToDelete,
-  onConfirm,
 }: TaskConfirmDeleteModalProps) {
   const queryClient = useQueryClient();
   const taskText = taskToDelete?.text || "";
@@ -36,22 +34,18 @@ export function TaskConfirmDeleteModal({
     onSuccess: (id) => {
       queryClient.setQueryData<GetTasksResponse>(["tasks"], (oldData) => {
         if (!oldData) return oldData;
+        const tasksWitoutRemoveId = oldData.tasks.filter((task) => task.id !== id)
         return {
-          tasks: oldData.tasks.filter((task) => task.id !== id),
+          tasks: tasksWitoutRemoveId,
         };
       });
       onOpenChange(false);
-      onConfirm?.();
     },
   });
 
-  const handleConfirm = async () => {
-    try {
-      await deleteTaskFn(taskId);
-    } catch (error) {
-      console.error("Erro ao deletar tarefa:", error);
-    }
-  };
+  async function handleConfirm() {
+    await deleteTaskFn(taskId);
+  }
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
