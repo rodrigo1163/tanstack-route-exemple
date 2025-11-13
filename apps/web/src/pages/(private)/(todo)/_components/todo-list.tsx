@@ -7,7 +7,6 @@ type Filter = "all" | "active" | "completed";
 interface TodoListProps {
   todos: Todo[];
   filteredTodos: Todo[];
-  isLoading: boolean;
   error: Error | null;
   filter: Filter;
   onToggleComplete: (input: UpdateTaskInput) => void;
@@ -17,7 +16,6 @@ interface TodoListProps {
 export function TodoList({
   todos,
   filteredTodos,
-  isLoading,
   error,
   filter,
   onToggleComplete,
@@ -25,11 +23,7 @@ export function TodoList({
 }: TodoListProps) {
   return (
     <div className="space-y-2">
-      {isLoading ? (
-        <div className="text-center py-12 text-muted-foreground">
-          <p className="text-lg">Carregando tarefas...</p>
-        </div>
-      ) : error ? (
+      {error ? (
         <div className="text-center py-12 text-destructive">
           <p className="text-lg">Erro ao carregar tarefas: {error.message}</p>
         </div>

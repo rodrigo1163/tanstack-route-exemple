@@ -197,7 +197,6 @@ function TodoRoute() {
             <TodoList
               todos={todos}
               filteredTodos={filteredTodos}
-              isLoading={isLoadingTasks}
               error={error}
               filter={filter}
               onToggleComplete={updateTaskFn}
