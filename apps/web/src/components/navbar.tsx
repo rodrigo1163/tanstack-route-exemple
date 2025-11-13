@@ -39,7 +39,7 @@ export function Navbar() {
                   Dashboard
                 </Link>
                 <Link
-                  to="/to-do"
+                  to="/todo"
                   activeProps={activeProps}
                   className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors"
                   inactiveProps={{
@@ -118,7 +118,7 @@ export function Navbar() {
                 Dashboard
               </Link>
               <Link
-                to="/to-do"
+                to="/todo"
                 activeProps={activeProps}
                 className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors py-2"
                 inactiveProps={{

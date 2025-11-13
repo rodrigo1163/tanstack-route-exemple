@@ -74,7 +74,7 @@ function App() {
                     <ArrowRight className="size-4" />
                   </Button>
                 </Link>
-                <Link to="/to-do">
+                <Link to="/todo">
                   <Button size="lg" variant="outline" className="gap-2">
                     Ver Tarefas
                     <CheckCircle2 className="size-4" />
