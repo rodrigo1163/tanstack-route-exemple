@@ -17,8 +17,8 @@ import {
   FormItem,
   FormMessage,
 } from "@/components/ui/form";
-import { TodoConfirmDeleteModal } from "@/pages/(private)/(todo)/_components/todo-confirm-delete-modal";
-import { TodoList } from "@/pages/(private)/(todo)/_components/todo-list";
+import { TodoConfirmDeleteModal } from "@/pages/(private)/todo/_components/todo-confirm-delete-modal";
+import { TodoList } from "@/pages/(private)/todo/_components/todo-list";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { createTask } from "@/api/create-task";
 import { updateTask } from "@/api/update-task";
@@ -29,7 +29,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod/v3";
 import { TodoSkeleton } from "./_components/todo-skeleton";
 
-export const Route = createFileRoute("/(private)/(todo)/todo")({
+export const Route = createFileRoute("/(private)/todo/")({
   component: TodoRoute,
 });
 

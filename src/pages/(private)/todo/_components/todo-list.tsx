@@ -1,6 +1,7 @@
 import { Trash2, CheckCircle2, Circle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { Todo, UpdateTaskInput } from "@/api/get-tasks";
+import { getEmptyStateMessage } from "../_helpers";
 
 type Filter = "all" | "active" | "completed";
 
@@ -30,13 +31,7 @@ export function TodoList({
       ) : filteredTodos.length === 0 ? (
         <div className="text-center py-12 text-muted-foreground">
           <p className="text-lg">
-            {todos.length === 0
-              ? "Nenhuma tarefa ainda. Adicione uma para começar!"
-              : filter === "active"
-              ? "Nenhuma tarefa ativa!"
-              : filter === "completed"
-              ? "Nenhuma tarefa completada ainda!"
-              : "Nenhuma tarefa encontrada."}
+            {getEmptyStateMessage(todos.length, filter)}
           </p>
         </div>
       ) : (
