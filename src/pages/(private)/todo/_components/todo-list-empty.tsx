@@ -1,7 +1,19 @@
-interface TodoListEmptyPros {
-  text: string
-}
+import { ClipboardList } from "lucide-react";
 
-export function TodoListEmpty({ text }: TodoListEmptyPros) {
-  return text
+export function TodoListEmpty() {
+  return (
+    <div
+      className="text-center py-12 text-muted-foreground"
+      role="status"
+      aria-live="polite"
+    >
+      <ClipboardList
+        className="size-12 mx-auto mb-4 text-muted-foreground/50"
+        aria-hidden="true"
+      />
+      <p className="text-lg font-medium">
+        Nenhuma tarefa ainda. Adicione uma para começar!
+      </p>
+    </div>
+  );
 }

@@ -1,24 +1,17 @@
 import { Trash2, CheckCircle2, Circle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import type { Todo, UpdateTaskInput } from "@/api/get-tasks";
-import { getEmptyStateMessage } from "../_helpers";
-
-type Filter = "all" | "active" | "completed";
 
 interface TodoListProps {
-  todos: Todo[];
   filteredTodos: Todo[];
   error: Error | null;
-  filter: Filter;
   onToggleComplete: (input: UpdateTaskInput) => void;
   onDelete: (todo: Todo) => void;
 }
 
 export function TodoList({
-  todos,
   filteredTodos,
   error,
-  filter,
   onToggleComplete,
   onDelete,
 }: TodoListProps) {
@@ -27,12 +20,6 @@ export function TodoList({
       {error ? (
         <div className="text-center py-12 text-destructive">
           <p className="text-lg">Erro ao carregar tarefas: {error.message}</p>
-        </div>
-      ) : filteredTodos.length === 0 ? (
-        <div className="text-center py-12 text-muted-foreground">
-          <p className="text-lg">
-            {getEmptyStateMessage(todos.length, filter)}
-          </p>
         </div>
       ) : (
         filteredTodos.map((todo) => (

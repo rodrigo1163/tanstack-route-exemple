@@ -28,6 +28,7 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod/v3";
 import { TodoSkeleton } from "./_components/todo-skeleton";
+import { TodoListEmpty } from "./_components/todo-list-empty";
 
 export const Route = createFileRoute("/(private)/todo/")({
   component: TodoRoute,
@@ -195,12 +196,12 @@ function TodoRoute() {
               </div>
             )}
 
+            {todos.length === 0 && filteredTodos.length === 0 && <TodoListEmpty />}
+
             {/* Todo List */}
             <TodoList
-              todos={todos}
               filteredTodos={filteredTodos}
               error={error}
-              filter={filter}
               onToggleComplete={updateTaskFn}
               onDelete={setTaskToDelete}
             />

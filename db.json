@@ -1,9 +1,9 @@
 {
   "tasks": [
     {
-      "id": "2",
+      "completed": false,
       "text": "Finish project",
-      "completed": true
+      "id": "2"
     },
     {
       "completed": true,
@@ -11,7 +11,7 @@
       "id": "e343"
     },
     {
-      "completed": true,
+      "completed": false,
       "text": "asdfasdf",
       "id": "8592"
     },
@@ -26,7 +26,7 @@
       "completed": false
     },
     {
-      "completed": true,
+      "completed": false,
       "text": "asdfasdf",
       "id": "ce2e"
     },
@@ -41,7 +41,7 @@
       "completed": false
     },
     {
-      "completed": true,
+      "completed": false,
       "text": "sfdghsfgsdfgsdfgsdfgsdfgsfdg43e4343",
       "id": "a6b8"
     }
