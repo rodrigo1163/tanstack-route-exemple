@@ -1,16 +1,11 @@
 # Como Rodar o Projeto
 
-Este é um projeto monorepo que utiliza **Turbo** e **pnpm** para gerenciar múltiplas aplicações. O projeto contém:
-
-- **Frontend** (`apps/web`): Aplicação React com TanStack Router e Vite
-- **Backend** (`apps/server`): API Fastify com Better Auth
-- **Banco de Dados**: PostgreSQL via Docker Compose
+Este é um projeto frontend que utiliza **React**, **Vite**, **TanStack Router** e **JSON Server** para simular uma API REST.
 
 ## Pré-requisitos
 
 - **Node.js** >= 18
 - **pnpm** >= 10.0.0 (gerenciador de pacotes)
-- **Docker** e **Docker Compose** (para o banco de dados PostgreSQL)
 
 ## Instalação
 
@@ -33,74 +28,33 @@ npm install -g pnpm
 pnpm install
 ```
 
-4. Configure as variáveis de ambiente:
-
-**Backend (`apps/server/.env`):**
-
-Crie um arquivo `.env` na pasta `apps/server` com as seguintes variáveis:
-
-```env
-PORT=3333
-BETTER_AUTH_SECRET=sua-chave-secreta-aqui
-DATABASE_URL=postgresql://docker:docker@localhost:5432/tanstack
-CLIENT_ORIGIN=http://localhost:3000
-```
-
-**Frontend (`apps/web/.env`):**
-
-Crie um arquivo `.env` na pasta `apps/web` com as seguintes variáveis:
-
-```env
-API_URL=http://localhost:3333
-CLIENT_URL=http://localhost:3000
-```
-
-> **⚠️ Importante:** Substitua `sua-chave-secreta-aqui` por uma chave secreta segura para o Better Auth. Você pode gerar uma chave aleatória usando qualquer gerador de strings aleatórias.
-
 ## Como Rodar o Projeto
 
-### 1. Iniciar o Banco de Dados
+### Opção 1: Rodar Frontend e JSON Server Simultaneamente
 
-Primeiro, inicie o PostgreSQL usando Docker Compose:
+Para rodar o frontend e o JSON Server ao mesmo tempo, você precisará abrir dois terminais:
+
+**Terminal 1 - JSON Server:**
 
 ```bash
-docker-compose up -d
+pnpm json-server
 ```
 
-Isso irá iniciar um container PostgreSQL na porta `5432` com as seguintes credenciais:
+Isso irá iniciar o JSON Server na porta `3333` usando o arquivo `db.json` como banco de dados.
 
-- **Usuário**: `docker`
-- **Senha**: `docker`
-- **Database**: `tanstack`
-
-### 2. Rodar as Aplicações em Modo Desenvolvimento
-
-Para rodar tanto o frontend quanto o backend simultaneamente:
+**Terminal 2 - Frontend:**
 
 ```bash
 pnpm dev
 ```
 
-Este comando irá:
+Isso irá iniciar o servidor de desenvolvimento do Vite na porta `3000`.
 
-- Iniciar o servidor backend (`apps/server`) na porta configurada
-- Iniciar o frontend (`apps/web`) na porta `3000`
+### Opção 2: Rodar Apenas o Frontend
 
-### Rodar Aplicações Individualmente
-
-Se preferir rodar cada aplicação separadamente:
-
-**Frontend apenas:**
+Se você já tiver o JSON Server rodando em outro terminal ou processo:
 
 ```bash
-cd apps/web
-pnpm dev
-```
-
-**Backend apenas:**
-
-```bash
-cd apps/server
 pnpm dev
 ```
 
@@ -109,4 +63,19 @@ pnpm dev
 Após iniciar o projeto, acesse:
 
 - **Frontend**: http://localhost:3000
-- **Backend**: Verifique a porta configurada no arquivo `.env` do servidor
+- **JSON Server API**: http://localhost:3333
+
+## Estrutura do Projeto
+
+- **`src/`**: Código fonte da aplicação React
+- **`db.json`**: Arquivo de dados mockados usado pelo JSON Server
+- **`public/`**: Arquivos estáticos públicos
+
+## Scripts Disponíveis
+
+- `pnpm dev`: Inicia o servidor de desenvolvimento do Vite (porta 3000)
+- `pnpm build`: Gera a build de produção
+- `pnpm serve`: Visualiza a build de produção localmente
+- `pnpm json-server`: Inicia o JSON Server na porta 3333
+- `pnpm test`: Executa os testes
+- `pnpm check-types`: Verifica os tipos TypeScript
