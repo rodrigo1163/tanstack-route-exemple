@@ -10,6 +10,8 @@ import reportWebVitals from "./reportWebVitals.ts";
 import { NotFound } from "./components/404.tsx";
 import { useAuth } from "./app/providers/auth-provider.tsx";
 import { Providers } from "./app/providers/index.tsx";
+import { SplashScreen } from "./components/splash-screen.tsx";
+import { useSplashScreen } from "./hooks/use-splash-screen.ts";
 
 const router = createRouter({
   routeTree,
@@ -31,14 +33,9 @@ declare module "@tanstack/react-router" {
 
 function InnerApp() {
   const auth = useAuth();
+  const { showSplash, visible } = useSplashScreen(auth.isLoading);
 
-  if (auth.isLoading) {
-    return (
-      <div className="flex h-screen w-full items-center justify-center p-4">
-        <div className="size-10 rounded-full border-4 border-gray-200 border-t-foreground animate-spin" />
-      </div>
-    );
-  }
+  if (showSplash) return <SplashScreen visible={visible} />;
 
   if (auth.error) {
     throw auth.error;

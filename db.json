@@ -1,39 +1,39 @@
 {
   "tasks": [
     {
-      "id": "3b54",
+      "completed": true,
       "text": "asdfasdf",
-      "completed": false
+      "id": "3b54"
     },
     {
-      "id": "52d9",
+      "completed": true,
       "text": "asdf",
-      "completed": false
+      "id": "52d9"
     },
     {
-      "id": "f280",
+      "completed": true,
       "text": "asdfas",
-      "completed": false
+      "id": "f280"
     },
     {
-      "id": "20de",
+      "completed": true,
       "text": "asdf",
-      "completed": false
+      "id": "20de"
     },
     {
-      "id": "d5e9",
+      "completed": true,
       "text": "asdf",
-      "completed": false
+      "id": "d5e9"
     },
     {
-      "id": "4361",
+      "completed": true,
       "text": "asdfasd",
-      "completed": false
+      "id": "4361"
     },
     {
-      "id": "dc7c",
+      "completed": true,
       "text": "asdf",
-      "completed": false
+      "id": "dc7c"
     }
   ]
 }

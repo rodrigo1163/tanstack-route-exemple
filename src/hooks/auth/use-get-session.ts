@@ -11,6 +11,6 @@ export function useGetSession() {
       expiresAt: new Date(Date.now() + 1000 * 60 * 60 * 24),
       token: "1234567890",
     },
-  }
+  };
   return { data, isPending: false, error: null };
 }
