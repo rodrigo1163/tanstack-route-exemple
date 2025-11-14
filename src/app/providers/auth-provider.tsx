@@ -32,7 +32,7 @@ const AuthContext = createContext({} as AuthContextType);
 
 export function AuthProvider({ children }: AuthProvider) {
   const { data, isPending, error } = useGetSession();
-  const isAuthenticated = false;
+  const isAuthenticated = !!data;
 
   return (
     <AuthContext.Provider

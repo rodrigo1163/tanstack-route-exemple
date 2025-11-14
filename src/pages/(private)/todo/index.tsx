@@ -10,6 +10,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { ScrollArea } from "@/components/ui/scroll-area";
 import {
   Form,
   FormControl,
@@ -206,11 +207,15 @@ function TodoRoute() {
             )}
 
             {/* Todo List */}
-            <TodoList
-              filteredTodos={filteredTodos}
-              onToggleComplete={updateTaskFn}
-              onDelete={setTaskToDelete}
-            />
+            {filteredTodos.length > 0 && !error && (
+              <div className="max-h-[400px] overflow-auto [&::-webkit-scrollbar]:w-2 [&::-webkit-scrollbar-track]:bg-transparent [&::-webkit-scrollbar-thumb]:bg-muted-foreground/20 [&::-webkit-scrollbar-thumb]:rounded-full hover:[&::-webkit-scrollbar-thumb]:bg-muted-foreground/30">
+                <TodoList
+                  filteredTodos={filteredTodos}
+                  onToggleComplete={updateTaskFn}
+                  onDelete={setTaskToDelete}
+                />
+              </div>
+            )}
 
             {/* Stats */}
             {todos.length > 0 && (
