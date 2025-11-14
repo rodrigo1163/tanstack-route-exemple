@@ -1,17 +1,17 @@
 {
   "tasks": [
     {
-      "completed": true,
+      "completed": false,
       "text": "asdfa",
       "id": "e343"
     },
     {
-      "completed": true,
+      "completed": false,
       "text": "sfdgsdfgsdfgsdfg",
       "id": "eef4"
     },
     {
-      "completed": true,
+      "completed": false,
       "text": "fffff",
       "id": "a43a"
     },
@@ -21,12 +21,12 @@
       "id": "ce2e"
     },
     {
-      "completed": true,
+      "completed": false,
       "text": "asdfasdfasdf",
       "id": "1578"
     },
     {
-      "completed": true,
+      "completed": false,
       "text": "asdfasdfasdfasfdasdf",
       "id": "93fe"
     }

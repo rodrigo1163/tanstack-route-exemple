@@ -6,14 +6,12 @@ import type { UseMutateAsyncFunction } from "@tanstack/react-query";
 
 interface TodoListProps {
   filteredTodos: Todo[];
-  error: Error | null;
   onToggleComplete: UseMutateAsyncFunction<UpdateTaskInput, Error, UpdateTaskInput, unknown>
   onDelete: (todo: Todo) => void;
 }
 
 export function TodoList({
   filteredTodos,
-  error,
   onToggleComplete,
   onDelete,
 }: TodoListProps) {
@@ -39,11 +37,7 @@ export function TodoList({
 
   return (
     <div className="space-y-2">
-      {error ? (
-        <div className="text-center py-12 text-destructive">
-          <p className="text-lg">Erro ao carregar tarefas: {error.message}</p>
-        </div>
-      ) : (
+      {(
         filteredTodos.map((todo) => {
           const isLoading = loadingTodos.has(todo.id);
           return (

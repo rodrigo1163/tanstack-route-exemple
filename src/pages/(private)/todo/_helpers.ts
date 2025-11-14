@@ -1,4 +1,4 @@
-type Filter = "all" | "active" | "completed";
+import type { Filter } from ".";
 
 export function getEmptyStateMessage(todosCount: number, filter: Filter): string {
   if (todosCount === 0) {

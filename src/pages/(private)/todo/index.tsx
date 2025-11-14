@@ -29,12 +29,13 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod/v3";
 import { TodoSkeleton } from "./_components/todo-skeleton";
 import { TodoListEmpty } from "./_components/todo-list-empty";
+import { TodoListError } from "./_components/todo-list-error";
 
 export const Route = createFileRoute("/(private)/todo/")({
   component: TodoRoute,
 });
 
-type Filter = "all" | "active" | "completed";
+export type Filter = "all" | "active" | "completed";
 
 const createTaskSchema = z.object({
   text: z.string().trim().min(1, "O texto da tarefa é obrigatório"),
@@ -54,7 +55,7 @@ function TodoRoute() {
   });
   const queryClient = useQueryClient();
 
-  const { data, isLoading: isLoadingTasks, error } = useQuery<GetTasksResponse, Error>({
+  const { data, isLoading: isLoadingTasks, error, refetch } = useQuery<GetTasksResponse, Error>({
     queryKey: ["tasks"],
     queryFn: getTasks
   });
@@ -196,12 +197,17 @@ function TodoRoute() {
               </div>
             )}
 
-            {todos.length === 0 && filteredTodos.length === 0 && <TodoListEmpty />}
+            {filteredTodos.length === 0 && !error && (
+              <TodoListEmpty todosCount={todos.length} filter={filter} />
+            )}
+
+            {error && (
+              <TodoListError error={error} onRetry={() => refetch()} />
+            )}
 
             {/* Todo List */}
             <TodoList
               filteredTodos={filteredTodos}
-              error={error}
               onToggleComplete={updateTaskFn}
               onDelete={setTaskToDelete}
             />
