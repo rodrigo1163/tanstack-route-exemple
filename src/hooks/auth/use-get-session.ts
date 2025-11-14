@@ -12,5 +12,5 @@ export function useGetSession() {
       token: "1234567890",
     },
   }
-  return { data, isLoading: false, error: null };
+  return { data, isPending: false, error: null };
 }

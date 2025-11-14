@@ -1,5 +1,4 @@
-import { createFileRoute, Link, useNavigate } from "@tanstack/react-router";
-import { authClient } from "../../lib/auth-client";
+import { createFileRoute, Link } from "@tanstack/react-router";
 import {
   Card,
   CardContent,
@@ -22,7 +21,6 @@ import { Loader2 } from "lucide-react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod/v3";
-import { env } from "../../../env";
 
 const signUpSchema = z.object({
   name: z.string().min(1, "Nome é obrigatório"),
@@ -40,7 +38,6 @@ export const Route = createFileRoute("/(public)/sign-up")({
 });
 
 function RouteComponent() {
-  const navigate = useNavigate();
   const form = useForm<SignUpFormValues>({
     resolver: zodResolver(signUpSchema),
     defaultValues: {
@@ -53,27 +50,8 @@ function RouteComponent() {
     formState: { isSubmitting },
   } = form;
 
-  async function handleSignUp(data: SignUpFormValues) {
-    await authClient.signUp.email(
-      {
-        name: data.name,
-        email: data.email,
-        password: data.password,
-        callbackURL: `${env.CLIENT_URL}/sign-in`,
-      },
-      {
-        onError: (context) => {
-          if (context.error.message) {
-            alert(context.error.message);
-          } else {
-            alert("Erro ao cadastrar");
-          }
-        },
-        onSuccess: () => {
-          navigate({ to: "/sign-in" });
-        },
-      }
-    );
+  async function handleSignUp(_data: SignUpFormValues) {
+   // TODO: Implementar cadastro
   }
 
   return (

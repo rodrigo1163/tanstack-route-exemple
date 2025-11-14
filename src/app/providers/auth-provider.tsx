@@ -4,23 +4,15 @@ import { createContext, useContext, type ReactNode } from "react";
 
 interface User {
   id: string;
-  createdAt: Date;
-  updatedAt: Date;
-  email: string;
-  emailVerified: boolean;
   name: string;
-  image?: string | null | undefined;
+  email: string;
 }
 
 export interface Session {
   id: string;
-  createdAt: Date;
-  updatedAt: Date;
   userId: string;
   expiresAt: Date;
   token: string;
-  ipAddress?: string | null | undefined;
-  userAgent?: string | null | undefined;
 }
 export interface Data {
   user: User;
@@ -40,7 +32,7 @@ const AuthContext = createContext({} as AuthContextType);
 
 export function AuthProvider({ children }: AuthProvider) {
   const { data, isPending, error } = useGetSession();
-  const isAuthenticated = !!data;
+  const isAuthenticated = false;
 
   return (
     <AuthContext.Provider
