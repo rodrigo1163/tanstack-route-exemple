@@ -1,29 +1,19 @@
 {
   "tasks": [
     {
-      "completed": false,
-      "text": "Finish project",
-      "id": "2"
-    },
-    {
       "completed": true,
       "text": "asdfa",
       "id": "e343"
     },
     {
-      "completed": false,
-      "text": "asdfasdf",
-      "id": "8592"
-    },
-    {
-      "id": "eef4",
+      "completed": true,
       "text": "sfdgsdfgsdfgsdfg",
-      "completed": false
+      "id": "eef4"
     },
     {
-      "id": "a43a",
+      "completed": true,
       "text": "fffff",
-      "completed": false
+      "id": "a43a"
     },
     {
       "completed": false,
@@ -31,19 +21,14 @@
       "id": "ce2e"
     },
     {
-      "id": "1578",
+      "completed": true,
       "text": "asdfasdfasdf",
-      "completed": false
+      "id": "1578"
     },
     {
-      "id": "93fe",
+      "completed": true,
       "text": "asdfasdfasdfasfdasdf",
-      "completed": false
-    },
-    {
-      "completed": false,
-      "text": "sfdghsfgsdfgsdfgsdfgsdfgsfdg43e4343",
-      "id": "a6b8"
+      "id": "93fe"
     }
   ]
 }
