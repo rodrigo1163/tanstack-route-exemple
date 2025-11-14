@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 
-export const Route = createFileRoute("/(private)/org/$slug/animals/")({
+export const Route = createFileRoute("/(private)/org/$slug/animals/index")({
   component: RouteComponent,
   head: () => ({
     meta: [

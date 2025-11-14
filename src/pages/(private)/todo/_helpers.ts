@@ -1,4 +1,4 @@
-import type { Filter } from ".";
+import type { Filter } from "./page";
 
 export function getEmptyStateMessage(todosCount: number, filter: Filter): string {
   if (todosCount === 0) {

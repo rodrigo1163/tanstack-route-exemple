@@ -13,6 +13,7 @@ export default defineConfig({
       routesDirectory: "./src/pages",
       routeToken: "layout",
       routeFileIgnorePattern: "(_components|_hooks|_helpers|_utils|_constants)",
+      indexToken: "(page)",
     }),
     viteReact(),
     tailwindcss(),

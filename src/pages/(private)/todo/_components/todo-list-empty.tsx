@@ -1,6 +1,6 @@
 import { ClipboardList } from "lucide-react";
 import { getEmptyStateMessage } from "../_helpers";
-import type { Filter } from "..";
+import type { Filter } from "../page";
 
 interface TodoListEmptyProps {
   todosCount?: number;
