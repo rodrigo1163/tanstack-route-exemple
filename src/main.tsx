@@ -9,7 +9,7 @@ import "./global.css";
 import reportWebVitals from "./reportWebVitals.ts";
 import { NotFound } from "./components/404.tsx";
 import { useAuth } from "./app/providers/auth-provider.tsx";
-import { Provider } from "./app/providers/index.tsx";
+import { Providers } from "./app/providers/index.tsx";
 
 const router = createRouter({
   routeTree,
@@ -52,9 +52,9 @@ if (rootElement && !rootElement.innerHTML) {
   const root = ReactDOM.createRoot(rootElement);
   root.render(
     <StrictMode>
-      <Provider>
+      <Providers>
         <InnerApp />
-      </Provider>
+      </Providers>
     </StrictMode>
   );
 }

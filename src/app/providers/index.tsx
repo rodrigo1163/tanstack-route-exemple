@@ -8,7 +8,7 @@ interface ProviderProps {
   children: React.ReactNode;
 }
 
-export function Provider({ children }: ProviderProps) {
+export function Providers({ children }: ProviderProps) {
   return (
     <ErrorBoundaryProvider>
       <AuthProvider>
